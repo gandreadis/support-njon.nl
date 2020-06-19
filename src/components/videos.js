@@ -6,7 +6,7 @@ import YouTube from 'react-youtube'
 const Video = ({ id }) => <YouTube videoId={id} className="w-75" />
 
 const Videos = () => (
-  <div className="bg-dark text-light">
+  <div className="bg-dark text-light flex-shrink-0">
     <Container>
       <Carousel interval={null} className="p-0 mx-auto row w-100">
         <Carousel.Item className="text-center">

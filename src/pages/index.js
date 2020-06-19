@@ -20,7 +20,7 @@ import Videos from '../components/videos'
 const Index = ({ intl }) => (
   <Layout pageInfo={{ name: 'index' }}>
     <SEO title="Home" keywords={[`support njon`, `njon`, `jon`, `campagne`]} />
-    <div className="image-jumbotron" />
+    <div className="image-jumbotron flex-shrink-0" />
     <Container>
       <Row className="py-3">
         <Col>

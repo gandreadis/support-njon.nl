@@ -67,7 +67,7 @@ const Layout = ({ children, pageInfo }) => (
               <>{children}</>
             )}
           </main>
-          <div className="bg-light">
+          <div className="bg-light flex-shrink-0">
             <Container>
               <Footer />
             </Container>
