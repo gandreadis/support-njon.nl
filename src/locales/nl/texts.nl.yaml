@@ -21,6 +21,8 @@ index:
     sort-by: Gesorteerd op
     sort-by-date: tijdstip
     sort-by-name: naam
+  share:
+    title: Deel deze pagina
 
 submit:
   title: Een bericht over het NJON plaatsen

@@ -8,7 +8,8 @@ const Footer = ({ intl }) => (
       Broerse
     </p>
     <p>
-      {intl.formatMessage({ id: 'footer.website' })}:
+      {intl.formatMessage({ id: 'footer.website' })}
+      {': '}
       <a href="https://gandreadis.com" target="_blank" rel="noreferrer">
         Georgios Andreadis
       </a>

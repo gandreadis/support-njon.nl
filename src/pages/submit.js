@@ -35,7 +35,12 @@ class Submit extends React.Component {
           method="POST"
           action="https://formsubmit.co/support-njon@gandreadis.com"
         >
-          <input type="hidden" name="_next" value="https://support-njon.nl/submission-successful"/>
+          <input
+            type="hidden"
+            name="_next"
+            aria-label="Redirect"
+            value="https://support-njon.nl/submission-successful"
+          />
 
           <Form.Group controlId="formText">
             <Form.Label>

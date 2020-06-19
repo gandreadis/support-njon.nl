@@ -25,8 +25,7 @@ class LanguageSwitcher extends Component {
           src={this.getImageByCode(code)}
           alt={label}
           className="mr-2"
-          style={{ marginBottom: '3px' }}
-          width="28px"
+          width="30px"
         />
         {label}
       </NavDropdown.Item>
@@ -43,16 +42,11 @@ class LanguageSwitcher extends Component {
       <IntlContextConsumer>
         {({ language: currentLocale }) => (
           <Dropdown>
-            <Dropdown.Toggle variant="dark" id="language-dropdown">
+            <Dropdown.Toggle variant="dark" id="language-dropdown" className="d-flex h-100 align-items-center">
               <img
                 src={this.getImageByCode(currentLocale)}
                 alt="Language"
                 width="30px"
-                style={{
-                  marginBottom: '3px',
-                  paddingTop: '3px',
-                  paddingBottom: '2px',
-                }}
               />
             </Dropdown.Toggle>
             <Helmet>

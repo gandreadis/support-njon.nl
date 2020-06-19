@@ -14,7 +14,7 @@ class CustomNavbar extends React.Component {
   }
 
   componentDidMount() {
-    this.listener = document.addEventListener('scroll', (e) => {
+    this.listener = document.addEventListener('scroll', () => {
       this.checkScrollState()
     })
   }
@@ -72,7 +72,7 @@ class CustomNavbar extends React.Component {
                   {intl.formatMessage({ id: 'nav.sign-petition' })}
                 </a>
                 <div className="bg-light py-1 px-2 mr-1 mb-md-0 mb-1">
-                  9999 {intl.formatMessage({ id: 'nav.signatures' })}
+                  0 {intl.formatMessage({ id: 'nav.signatures' })}
                 </div>
                 <LanguageSwitcher />
               </Nav>

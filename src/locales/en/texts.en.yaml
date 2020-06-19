@@ -21,6 +21,8 @@ index:
     sort-by: Sorted by
     sort-by-date: time of submission
     sort-by-name: name
+  share:
+    title: Share this page
 
 submit:
   title: Submit a Testimonial
