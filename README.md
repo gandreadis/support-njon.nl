@@ -2,7 +2,7 @@
 
 _Support NJON Campaign Website_
 
-Site built to support the NJON in it's campaign for rightful funding from the Dutch government, highlighting testimonials from members and alumni.
+Site built to support the NJON in its campaign for rightful funding from the Dutch government, highlighting testimonials from members and alumni.
 
 ## Installation
 

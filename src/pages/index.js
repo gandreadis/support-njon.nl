@@ -27,11 +27,9 @@ const Index = ({ intl }) => (
     <SEO title="Home" keywords={[`support njon`, `njon`, `jon`, `campagne`]} />
     <div className="image-jumbotron flex-shrink-0">
       <Container>
-        <span>Jeugdorkest Nederland</span>
-        <br />
-        <span>Nationaal Jeugdorkest</span>
-        <br />
-        <span>NJO Muziekzomer</span>
+        <div>Jeugdorkest Nederland</div>
+        <div>Nationaal Jeugdorkest</div>
+        <div>NJO Muziekzomer</div>
       </Container>
     </div>
     <Container>
