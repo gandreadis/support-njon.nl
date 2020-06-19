@@ -1,0 +1,58 @@
+---
+generic:
+  title: Support the NJON
+
+nav:
+  sign-petition: Sign the petition!
+  signatures: signatures
+
+footer:
+  initiators: Initiators
+  website: Website
+  disclaimer: "Disclaimer: This site and it's initiators are neither affiliated nor endorsed by the NJON organization."
+
+index:
+  explanation: |
+    Explicabo quod eos magnam vero aut placeat. Sed quibusdam a aspernatur quibusdam beatae itaque dolores. Quia ea amet ipsam dolor ipsam. Officia ipsum fuga provident aut quis velit. Quis aut at sint voluptate. Eum sit minima quia consequatur. Voluptatem quia occaecati porro odit architecto quidem. Minima ipsam velit rerum itaque ut perferendis modi porro. Vel odit et est aliquam. Sed quidem doloribus illo est possimus dolores error rerum. Recusandae blanditiis labore sit nisi. Qui itaque quaerat ea. Ratione occaecati incidunt quasi ipsum numquam neque fugiat.
+  njon-post: Read the official statement of the NJON here
+  testimonials:
+    why-submit: Do you agree that the NJON's orchestras should continue to exist?
+    submit: Submit your own message about the NJON!
+    sort-by: Sort by
+    sort-by-date: time of submission
+    sort-by-name: name
+
+submit:
+  title: Submit a Testimonial
+  text:
+    label: Why are the NJON's youth orchestras valuable to you?
+    placeholder: Your reason/experiences...
+    explanation: Characters
+  personal:
+    title: Your information
+    subtitle: Entering is this is entirely optional, but helps add weight to your testimonial.
+  name:
+    label: Your name
+    placeholder: John Doe
+    explanation: Feel free to leave this empty or only enter your first name.
+  occupation:
+    label: Your occupation
+    placeholder: Student Bachelor Violin at the Conservatory / Professional Musician / ...
+    explanation: Feel free to leave this empty or only enter what information you're comfortable with.
+  age:
+    label: Your age
+    placeholder: "21"
+    explanation: Feel free to leave this empty.
+  confirm: I understand that my response and my personal information (if entered in this form) will be published on this site.
+  button: Submit
+
+submission-successful:
+  title: Submission successful
+  thanks: Thanks a lot for your submission!
+  explanation: We will add your text to the site as soon as possible.
+  return-home: Return home
+
+not-found:
+  title: Page Not Found
+  subtitle: This page doesn't seem to exist.
+  action: Return home?

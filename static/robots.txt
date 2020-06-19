@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /submit/
+Disallow: /submission-successful/
