@@ -32,10 +32,11 @@ class Submit extends React.Component {
         <SEO title={intl.formatMessage({ id: 'submit.title' })} />
         <Form
           name="testimonial"
-          data-netlify="true"
           method="POST"
-          action="/submission-successful"
+          action="https://formsubmit.co/support-njon@gandreadis.com"
         >
+          <input type="hidden" name="_next" value="https://support-njon.nl/submission-successful"/>
+
           <Form.Group controlId="formText">
             <Form.Label>
               {intl.formatMessage({ id: 'submit.text.label' })}{' '}
