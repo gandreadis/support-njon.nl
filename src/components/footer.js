@@ -4,12 +4,14 @@ import { injectIntl } from 'gatsby-plugin-intl'
 const Footer = ({ intl }) => (
   <footer className="text-muted pt-3 pb-1">
     <p>
-      <em>{intl.formatMessage({ id: 'footer.initiators' })}: </em>
-      Hugo Pieters & Tjeerd Broerse
+      {intl.formatMessage({ id: 'footer.initiators' })}: Hugo Pieters & Tjeerd
+      Broerse
     </p>
     <p>
-      <em>{intl.formatMessage({ id: 'footer.website' })}: </em>
-      <a href="https://gandreadis.com">Georgios Andreadis</a>
+      {intl.formatMessage({ id: 'footer.website' })}:
+      <a href="https://gandreadis.com" target="_blank" rel="noreferrer">
+        Georgios Andreadis
+      </a>
     </p>
     <p>{intl.formatMessage({ id: 'footer.disclaimer' })}</p>
   </footer>

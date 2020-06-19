@@ -66,6 +66,8 @@ class CustomNavbar extends React.Component {
                 <a
                   href="https://petities.nl"
                   className="btn btn-primary mr-1 mb-md-0 mb-1"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   {intl.formatMessage({ id: 'nav.sign-petition' })}
                 </a>

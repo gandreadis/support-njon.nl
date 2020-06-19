@@ -7,8 +7,13 @@ const ITEMS = [
   {
     text:
       'Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven.',
-    name: 'Henk',
     age: 5,
+    occupation: 'Violist',
+  },
+  {
+    text:
+      'Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven.',
+    name: 'Charlie',
     occupation: 'Violist',
   },
   {
@@ -65,22 +70,32 @@ class Testimonials extends React.Component {
     super(props)
 
     this.state = { sortByTime: true }
+
+    this.itemsByTime = [...ITEMS]
+    this.itemsByName = [...ITEMS]
+    console.log(this.itemsByName)
+    this.itemsByName.sort((a, b) => {
+      a.sortName = a.name
+      if (a.sortName === undefined) {
+        a.sortName = 'ZZZ'
+      }
+      b.sortName = b.name
+      if (b.sortName === undefined) {
+        b.sortName = 'ZZZ'
+      }
+      if (a.sortName < b.sortName) {
+        return -1
+      }
+      if (a.sortName > b.sortName) {
+        return 1
+      }
+      return 0
+    })
+    console.log(this.itemsByName)
   }
 
   render() {
     let { intl } = this.props
-    const sortedItems = [...ITEMS]
-    if (!this.state.sortByTime) {
-      sortedItems.sort((a, b) => {
-        if (a.name < b.name) {
-          return -1
-        }
-        if (a.name > b.name) {
-          return 1
-        }
-        return 0
-      })
-    }
 
     return (
       <Container>
@@ -102,15 +117,17 @@ class Testimonials extends React.Component {
           </Col>
         </Row>
         <Row className="pb-3">
-          {sortedItems.map((item, idx) => (
-            <Item
-              text={item.text}
-              name={item.name}
-              age={item.age}
-              occupation={item.occupation}
-              key={idx}
-            />
-          ))}
+          {(this.state.sortByTime ? this.itemsByTime : this.itemsByName).map(
+            (item, idx) => (
+              <Item
+                text={item.text}
+                name={item.name}
+                age={item.age}
+                occupation={item.occupation}
+                key={idx}
+              />
+            )
+          )}
         </Row>
       </Container>
     )
