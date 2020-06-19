@@ -1,5 +1,13 @@
 .image-jumbotron {
   background: #999;
   background-size: cover;
-  height: 500px;
+  padding: 200px 0;
+  text-align: right;
+  @extend .text-white;
+
+  span {
+    @extend .font-family-header;
+
+    font-size: 3.2rem;
+  }
 }

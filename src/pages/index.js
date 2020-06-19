@@ -3,13 +3,18 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 import { injectIntl, Link } from 'gatsby-plugin-intl'
 import { FaNewspaper } from 'react-icons/fa'
 import {
-  FacebookShareButton,
-  TwitterShareButton,
+  EmailIcon,
   EmailShareButton,
-  WhatsappShareButton,
+  FacebookIcon,
+  FacebookShareButton,
+  LinkedinIcon,
+  LinkedinShareButton,
+  TelegramIcon,
   TelegramShareButton,
-  LinkedinShareButton, FacebookIcon, EmailIcon, WhatsappIcon,
-  TwitterIcon, TelegramIcon, LinkedinIcon,
+  TwitterIcon,
+  TwitterShareButton,
+  WhatsappIcon,
+  WhatsappShareButton,
 } from 'react-share'
 
 import Layout from '../components/layout'
@@ -20,7 +25,15 @@ import Videos from '../components/videos'
 const Index = ({ intl }) => (
   <Layout pageInfo={{ name: 'index' }}>
     <SEO title="Home" keywords={[`support njon`, `njon`, `jon`, `campagne`]} />
-    <div className="image-jumbotron flex-shrink-0" />
+    <div className="image-jumbotron flex-shrink-0">
+      <Container>
+        <span>Jeugdorkest Nederland</span>
+        <br />
+        <span>Nationaal Jeugdorkest</span>
+        <br />
+        <span>NJO Muziekzomer</span>
+      </Container>
+    </div>
     <Container>
       <Row className="py-3">
         <Col>
@@ -61,22 +74,22 @@ const Index = ({ intl }) => (
         <Col className="text-center">
           <h3>{intl.formatMessage({ id: 'index.share.title' })}</h3>
           <FacebookShareButton url="https://support-njon.nl">
-            <FacebookIcon size={48} round={true} className="mr-1"/>
+            <FacebookIcon size={48} round={true} className="mr-1" />
           </FacebookShareButton>
           <TwitterShareButton url="https://support-njon.nl">
-            <TwitterIcon size={48} round={true} className="mr-1"/>
+            <TwitterIcon size={48} round={true} className="mr-1" />
           </TwitterShareButton>
           <EmailShareButton url="https://support-njon.nl">
-            <EmailIcon size={48} round={true} className="mr-1"/>
+            <EmailIcon size={48} round={true} className="mr-1" />
           </EmailShareButton>
           <WhatsappShareButton url="https://support-njon.nl">
-            <WhatsappIcon size={48} round={true} className="mr-1"/>
+            <WhatsappIcon size={48} round={true} className="mr-1" />
           </WhatsappShareButton>
           <TelegramShareButton url="https://support-njon.nl">
-            <TelegramIcon size={48} round={true} className="mr-1"/>
+            <TelegramIcon size={48} round={true} className="mr-1" />
           </TelegramShareButton>
           <LinkedinShareButton url="https://support-njon.nl">
-            <LinkedinIcon size={48} round={true}/>
+            <LinkedinIcon size={48} round={true} />
           </LinkedinShareButton>
         </Col>
       </Row>

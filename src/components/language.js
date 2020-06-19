@@ -42,7 +42,11 @@ class LanguageSwitcher extends Component {
       <IntlContextConsumer>
         {({ language: currentLocale }) => (
           <Dropdown>
-            <Dropdown.Toggle variant="dark" id="language-dropdown" className="d-flex h-100 align-items-center">
+            <Dropdown.Toggle
+              variant="dark"
+              id="language-dropdown"
+              className="d-flex h-100 align-items-center"
+            >
               <img
                 src={this.getImageByCode(currentLocale)}
                 alt="Language"
