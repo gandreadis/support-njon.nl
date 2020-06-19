@@ -42,6 +42,7 @@ class Submit extends React.Component {
               <span className="text-danger">*</span>
             </Form.Label>
             <Form.Control
+              name="text"
               as="textarea"
               placeholder={intl.formatMessage({
                 id: 'submit.text.placeholder',
@@ -69,6 +70,7 @@ class Submit extends React.Component {
               {intl.formatMessage({ id: 'submit.name.label' })}
             </Form.Label>
             <Form.Control
+              name="name"
               type="text"
               placeholder={intl.formatMessage({
                 id: 'submit.name.placeholder',
@@ -84,6 +86,7 @@ class Submit extends React.Component {
               {intl.formatMessage({ id: 'submit.occupation.label' })}
             </Form.Label>
             <Form.Control
+              name="occupation"
               type="text"
               placeholder={intl.formatMessage({
                 id: 'submit.occupation.placeholder',
@@ -99,6 +102,7 @@ class Submit extends React.Component {
               {intl.formatMessage({ id: 'submit.age.label' })}
             </Form.Label>
             <Form.Control
+              name="age"
               type="number"
               placeholder={intl.formatMessage({ id: 'submit.age.placeholder' })}
             />
