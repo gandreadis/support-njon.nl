@@ -73,7 +73,6 @@ class Testimonials extends React.Component {
 
     this.itemsByTime = [...ITEMS]
     this.itemsByName = [...ITEMS]
-    console.log(this.itemsByName)
     this.itemsByName.sort((a, b) => {
       a.sortName = a.name
       if (a.sortName === undefined) {
@@ -91,7 +90,6 @@ class Testimonials extends React.Component {
       }
       return 0
     })
-    console.log(this.itemsByName)
   }
 
   render() {
