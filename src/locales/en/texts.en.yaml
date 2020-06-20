@@ -4,7 +4,9 @@ generic:
 
 nav:
   sign-petition: Sign the petition!
-  signatures: signatures
+  signatures:
+    explanation: Updated hourly
+    label: signatures
 
 footer:
   initiators: Initiators

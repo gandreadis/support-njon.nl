@@ -4,7 +4,9 @@ generic:
 
 nav:
   sign-petition: Teken de petitie!
-  signatures: handtekeningen
+  signatures:
+    explanation: Dit getal wordt één keer per uur bijwegewerkt
+    label: handtekeningen
 
 footer:
   initiators: Initiatiefnemers

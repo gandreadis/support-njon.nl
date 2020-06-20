@@ -2,8 +2,14 @@ const path = require('path')
 const fs = require('fs-extra')
 const yaml = require('js-yaml')
 const flatten = require('flat')
+const fetch = require('isomorphic-fetch')
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
 
-exports.onPreBootstrap = translateFiles
+exports.onPreBootstrap = () => {
+  translateFiles()
+  loadPetitionCount()
+}
 
 function translateFiles() {
   console.log('Copying locales')
@@ -34,4 +40,18 @@ function loadTranslationObject(languageCode) {
     })
   )
   return Object.assign({}, ...translationObjects)
+}
+
+function loadPetitionCount() {
+  (async () => {
+    console.log("Loading petition website")
+    const response = await fetch('https://petities.nl/petitions/voorwaarts-mars-ruimte-voor-marsmuziek');
+    const text = await response.text();
+    console.log("Parsing petition website")
+    const dom = await new JSDOM(text);
+    const countString = dom.window.document.querySelector(".petition-intro-info-counter").textContent;
+    const count = countString.split(" ")[0];
+    console.log(`Count ${count}`)
+    process.env.PETITION_COUNT = count;
+  })()
 }

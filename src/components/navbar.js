@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container'
 import LanguageSwitcher from './language'
 import * as PropTypes from 'prop-types'
 
+const PETITION_COUNT = process.env.PETITION_COUNT;
+
 class CustomNavbar extends React.Component {
   constructor(props) {
     super(props)
@@ -38,6 +40,8 @@ class CustomNavbar extends React.Component {
 
   render() {
     let { pageInfo, intl } = this.props
+    let petitionCount = PETITION_COUNT ? PETITION_COUNT : 0
+
     return (
       <>
         <Navbar
@@ -71,8 +75,10 @@ class CustomNavbar extends React.Component {
                 >
                   {intl.formatMessage({ id: 'nav.sign-petition' })}
                 </a>
-                <div className="bg-light py-1 px-2 mr-1 mb-md-0 mb-1">
-                  0 {intl.formatMessage({ id: 'nav.signatures' })}
+                <div className="bg-light py-1 px-2 mr-1 mb-md-0 mb-1" title={intl.formatMessage({ id: 'nav.signatures.explanation' })}>
+                  {petitionCount}
+                  {' '}
+                  {intl.formatMessage({ id: 'nav.signatures.label' })}
                 </div>
                 <LanguageSwitcher />
               </Nav>

@@ -20,5 +20,11 @@ module.exports = {
         redirect: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-env-variables`,
+      options: {
+        whitelist: ["PETITION_COUNT"]
+      },
+    },
   ],
 }
