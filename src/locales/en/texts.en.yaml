@@ -5,7 +5,7 @@ generic:
 nav:
   sign-petition: Sign the petition!
   signatures:
-    explanation: Updated hourly
+    explanation: Updated hourly (during daytime)
     label: signatures
 
 footer:
