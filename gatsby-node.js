@@ -53,3 +53,19 @@ async function loadPetitionCount() {
   console.log(`Count ${count}`)
   process.env.PETITION_COUNT = count
 }
+
+// Fix isotope-layout build-time use of 'window'
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+  if (stage === "build-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /isotope-layout/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    })
+  }
+}
