@@ -7,13 +7,14 @@ const ITEMS = [
   {
     text:
       'Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven.',
-    age: 5,
+    age: 35,
     occupation: 'Violist',
   },
   {
     text:
       'Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven.',
     name: 'Charlie',
+    age: 25,
     occupation: 'Violist',
   },
   {

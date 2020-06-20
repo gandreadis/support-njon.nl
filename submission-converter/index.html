@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Submission Converter</title>
+
+    <script src="https://wzrd.in/standalone/copy-to-clipboard@latest"></script>
+</head>
+<body>
+<label for="input"><strong>Mail:</strong></label>
+<br/>
+<textarea id="input" placeholder="Mail text..." style="width: 600px; height: 400px">
+</textarea>
+<br/>
+<button onclick="onClick()" style="padding: 20px">Convert</button>
+
+<script>
+  if (typeof (String.prototype.trim) === 'undefined') {
+    String.prototype.trim = function() {
+      return String(this).replace(/^\s+|\s+$/g, '')
+    }
+  }
+
+  function onClick() {
+    const source = document.getElementById('input').value
+    const obj = {
+      text: /text:((.|\n)*?)name:/.exec(source)[1].trim().replaceAll(/\n\s*\n/g, '\n').replaceAll(/\n/g, " "),
+      name: /name:((.|\n)*?)occupation:/.exec(source)[1].trim().replaceAll(/\n\s*\n/g, '\n').replaceAll(/\n/g, " "),
+      occupation: /occupation:((.|\n)*?)age:/.exec(source)[1].trim().replaceAll(/\n\s*\n/g, '\n').replaceAll(/\n/g, " "),
+      age: /age:((.|\n)*?)Submitted/.exec(source)[1].trim().replaceAll(/\n\s*\n/g, '\n').replaceAll(/\n/g, " "),
+    }
+    const text = JSON.stringify(obj)
+    console.log(text)
+    window.copyToClipboard(text)
+  }
+</script>
+</body>
+</html>
