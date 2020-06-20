@@ -34,12 +34,12 @@ const Index = ({ intl }) => (
     </div>
     <Container>
       <Row className="py-3">
-        <Col xl={9} lg={8} md={12}>
+        <Col xl={9} lg={8} md={7} sm={12}>
           <p className="lead pb-2">
             {intl.formatMessage({ id: 'index.explanation' })}
           </p>
         </Col>
-        <Col xl={3} lg={4} md={12}>
+        <Col xl={3} lg={4} md={5} sm={12}>
           <h4>
             <FaNewspaper className="mr-1" />
             {intl.formatMessage({ id: 'index.media.title' })}
@@ -55,11 +55,39 @@ const Index = ({ intl }) => (
           </p>
           <p>
             <a
+              href="https://www.njo.nl/BIS-advies"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {intl.formatMessage({ id: 'index.media.njo' })}
+            </a>
+          </p>
+          <p>
+            <a
               href="https://www.trouw.nl/ws-b546043d"
               target="_blank"
               rel="noreferrer"
             >
               {intl.formatMessage({ id: 'index.media.trouw' })}
+            </a>
+          </p>
+          <img
+            src="/bis-advice.png"
+            alt="BIS-advies"
+            className="w-100 img-fluid"
+            style={{
+              borderWidth: 3,
+              borderColor: '#000',
+              borderStyle: 'solid',
+            }}
+          />
+          <p className="py-1">
+            <a
+              href="https://www.raadvoorcultuur.nl/binaries/raadvoorcultuur/documenten/adviezen/2020/06/04/ontwikkelfunctie2/Advies+Nationale+Jeugdorkesten+Nederland+%282021-2024%29.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {intl.formatMessage({ id: 'index.bis-advice' })}
             </a>
           </p>
         </Col>

@@ -50,12 +50,7 @@ const ITEMS = [
 ]
 
 const Item = ({ text, name, occupation, age }) => (
-  <Col
-    lg={4}
-    md={6}
-    sm={12}
-    className="text-white p-1 d-flex flex-column"
-  >
+  <Col lg={4} md={6} sm={12} className="text-white p-1 d-flex flex-column">
     <div className="d-flex flex-column h-100 p-2 bg-dark">
       <p
         className="lead flex-fill"
@@ -64,9 +59,9 @@ const Item = ({ text, name, occupation, age }) => (
         {text}
       </p>
       {(name || occupation) && (
-        <div className="lead text-right" style={{fontSize: '1rem'}}>
+        <div className="lead text-right" style={{ fontSize: '1rem' }}>
           {name && name + (age ? ` (${age})` : '')}
-          {(occupation ? <br/> : undefined)}
+          {occupation ? <br /> : undefined}
           <span className="font-italic">{occupation}</span>
         </div>
       )}
