@@ -12,12 +12,17 @@ footer:
   initiators: Initiators
   website: Website
   photographer: Header photo provided by
-  disclaimer: "Disclaimer: This site and its initiators are neither affiliated nor endorsed by the NJON organization."
+  support: Content support
+  disclaimer: "Disclaimer: The website and petition were an independent initiative of the initiators and not initiated bij the NJON. This website is financed by orchestra members of the Jeugdorkest Nederland."
+  contact: Contact the initiators or report identity fraud
 
 index:
   explanation: |
     Explicabo quod eos magnam vero aut placeat. Sed quibusdam a aspernatur quibusdam beatae itaque dolores. Quia ea amet ipsam dolor ipsam. Officia ipsum fuga provident aut quis velit. Quis aut at sint voluptate. Eum sit minima quia consequatur. Voluptatem quia occaecati porro odit architecto quidem. Minima ipsam velit rerum itaque ut perferendis modi porro. Vel odit et est aliquam. Sed quidem doloribus illo est possimus dolores error rerum. Recusandae blanditiis labore sit nisi. Qui itaque quaerat ea. Ratione occaecati incidunt quasi ipsum numquam neque fugiat.
-  njon-post: Read the official statement of the NJON here
+  media:
+    title: Media coverage
+    njon: Official statement of the NJON
+    trouw: Article in Trouw
   testimonials:
     why-submit: Do you agree that the NJON's orchestras should continue to exist?
     submit: Submit your own message about the NJON!

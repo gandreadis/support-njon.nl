@@ -34,18 +34,34 @@ const Index = ({ intl }) => (
     </div>
     <Container>
       <Row className="py-3">
-        <Col>
+        <Col xl={9} lg={8} md={12}>
           <p className="lead pb-2">
             {intl.formatMessage({ id: 'index.explanation' })}
           </p>
-          <a
-            href="https://www.jeugdorkest.nl/njon-tekenen-bezwaar-aan-tegen-negatief-bis-advies-raad-voor-cultuur/"
-            target="_blank"
-            rel="noreferrer"
-          >
+        </Col>
+        <Col xl={3} lg={4} md={12}>
+          <h4>
             <FaNewspaper className="mr-1" />
-            {intl.formatMessage({ id: 'index.njon-post' })}
-          </a>
+            {intl.formatMessage({ id: 'index.media.title' })}
+          </h4>
+          <p>
+            <a
+              href="https://www.jeugdorkest.nl/njon-tekenen-bezwaar-aan-tegen-negatief-bis-advies-raad-voor-cultuur/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {intl.formatMessage({ id: 'index.media.njon' })}
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.trouw.nl/ws-b546043d"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {intl.formatMessage({ id: 'index.media.trouw' })}
+            </a>
+          </p>
         </Col>
       </Row>
     </Container>
