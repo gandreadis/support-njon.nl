@@ -34,6 +34,7 @@ class Submit extends React.Component {
           name="testimonial"
           method="POST"
           action="https://formsubmit.co/support-njon@gandreadis.com"
+          className="mb-3"
         >
           <input
             type="hidden"

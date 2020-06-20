@@ -1,5 +1,5 @@
 import React from 'react'
-import { injectIntl } from 'gatsby-plugin-intl'
+import { injectIntl, Link } from 'gatsby-plugin-intl'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import * as PropTypes from 'prop-types'
 
@@ -99,6 +99,11 @@ class Testimonials extends React.Component {
       <Container>
         <Row className="pt-3" noGutters={true}>
           <Col className="text-right" xs={12}>
+            <Link to="/submit" className="mr-1">
+              <Button variant="primary">
+                {intl.formatMessage({ id: 'index.testimonials.short-submit' })}
+              </Button>
+            </Link>
             <Button
               variant="secondary"
               onClick={() =>

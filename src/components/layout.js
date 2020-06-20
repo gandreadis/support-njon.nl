@@ -60,7 +60,7 @@ const Layout = ({ children, pageInfo }) => (
           <main>
             {pageInfo.title ? (
               <Container className="mt-5">
-                {pageInfo.title && <h1>{pageInfo.title}</h1>}
+                {pageInfo.title && <h1 className="mt-3">{pageInfo.title}</h1>}
                 {children}
               </Container>
             ) : (
