@@ -41,7 +41,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: site.siteMetadata.title,
         },
         {
           property: `og:description`,
@@ -50,6 +50,10 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          property: `og:image`,
+          content: `https://support-njon.nl/nic-limper-photo.jpg`,
         },
         {
           name: `twitter:card`,
@@ -66,6 +70,10 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          property: `twitter:image`,
+          content: `https://support-njon.nl/nic-limper-photo.jpg`,
         },
       ]
         .concat(
