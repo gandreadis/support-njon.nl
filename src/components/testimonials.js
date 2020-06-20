@@ -14,38 +14,10 @@ const ITEMS = [
   },
   {
     text:
-      'Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven.',
-    age: 35,
-    occupation: 'Violist',
-  },
-  {
-    text:
-      'Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven.',
-    name: 'Charlie',
-    age: 25,
-    occupation: 'Violist',
-  },
-  {
-    text: 'Super tof, moet blijven. Super tof, moet blijven.',
-    occupation: 'Violist',
-  },
-  {
-    text: 'Super tof, moet blijven, en ik hou van anonimiteit.',
-  },
-  {
-    text: 'Super tof, moet blijven, en ik hou van anonimiteit.',
-  },
-  {
-    text: 'Super tof, moet blijven, en ik hou van anonimiteit.',
-  },
-  {
-    text:
-      'Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven.',
-    name: 'Alice',
-    occupation: 'Violist',
-  },
-  {
-    text: 'Super tof, moet blijven, en ik hou van anonimiteit.',
+      'Ik ben één van de vele jonge mensen voor wie het NJON ontzettend veel betekend heeft. Bij het JON krijgen middelbare scholieren de kans hun muzikale talenten op een hoog niveau te ontwikkelen en een onmisbare ervaring op te doen die nergens anders te vinden is. Door middel van uiterst leerzame repetities met een hoogstaande dirigent, prestatiedruk en het geven van concerten door heel Europa geeft het JON niet alleen een eerste stap in de professionele muziekwereld, maar draagt het bij aan een ervaring die in elke toekomstige carrière van toepassing zal zijn. Het NJO, wat elk seizoen gevuld is met fanatieke conservatorium studenten, geeft de studenten de kans om op het hoogste niveau te repeteren, netwerken en presteren. Het is voor hun van groot belang om deze ervaring op te doen en zich daardoor veel beter te kunnen voorbereiden op een carrière in professionele orkesten. Beide orkesten zijn praktisch gezien onmisbaar geweest in de levens van duizenden succesvolle muzikanten!',
+    name: 'Emma Steinmann',
+    occupation: '',
+    age: '20',
   },
 ]
 
