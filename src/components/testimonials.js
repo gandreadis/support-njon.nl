@@ -6,6 +6,14 @@ import * as PropTypes from 'prop-types'
 const ITEMS = [
   {
     text:
+      'In afgelopen jaren heeft NJON deuren voor mij geopend, waarvan ik niet eens wist dat ze bestonden. Ik heb geleerd samen te werken en mijn beste beentje vóór te zetten voor het geheel. Dit heeft mij een netwerk gebracht, waar ik ontzettend dankbaar voor ben en kracht uit kan putten op mijn weg naar een muzikale carrière. Zonder NJON zou ik niet daar zijn, waar ik nu ben.',
+    name: 'Hugo Pieters',
+    occupation:
+      'NJO member, Jong Metropole lid, voormalig JONner en student Hoorn, Conservatorium Maastricht',
+    age: '22',
+  },
+  {
+    text:
       'Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven. Super tof, moet blijven.',
     age: 35,
     occupation: 'Violist',
@@ -43,7 +51,6 @@ const ITEMS = [
 
 const Item = ({ text, name, occupation, age }) => (
   <Col
-    xl={3}
     lg={4}
     md={6}
     sm={12}
@@ -57,9 +64,10 @@ const Item = ({ text, name, occupation, age }) => (
         {text}
       </p>
       {(name || occupation) && (
-        <div className="lead text-right font-italic">
-          {name && name + (age ? ` (${age})` : '') + (occupation ? ', ' : '')}
-          {occupation}
+        <div className="lead text-right" style={{fontSize: '1rem'}}>
+          {name && name + (age ? ` (${age})` : '')}
+          {(occupation ? <br/> : undefined)}
+          <span className="font-italic">{occupation}</span>
         </div>
       )}
     </div>

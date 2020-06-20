@@ -30,7 +30,7 @@
       occupation: /occupation:((.|\n)*?)age:/.exec(source)[1].trim().replaceAll(/\n\s*\n/g, '\n').replaceAll(/\n/g, " "),
       age: /age:((.|\n)*?)Submitted/.exec(source)[1].trim().replaceAll(/\n\s*\n/g, '\n').replaceAll(/\n/g, " "),
     }
-    const text = JSON.stringify(obj)
+    const text = JSON.stringify(obj) + ","
     console.log(text)
     window.copyToClipboard(text)
   }
