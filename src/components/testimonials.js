@@ -2,6 +2,7 @@ import React from 'react'
 import { injectIntl, Link } from 'gatsby-plugin-intl'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import * as PropTypes from 'prop-types'
+import * as Isotope from 'isotope-layout';
 
 const ITEMS = [
   {
@@ -22,10 +23,10 @@ const ITEMS = [
 ]
 
 const Item = ({ text, name, occupation, age }) => (
-  <Col lg={4} md={6} sm={12} className="text-white p-1 d-flex flex-column">
-    <div className="d-flex flex-column h-100 p-2 bg-dark">
+  <div className={`text-white p-1 grid-item ${text.length > 500 ? 'grid-item--width2' : ''}`}>
+    <div className="p-2 bg-dark">
       <p
-        className="lead flex-fill"
+        className="lead"
         style={{ marginBottom: name || occupation ? 20 : 0 }}
       >
         {text}
@@ -38,7 +39,7 @@ const Item = ({ text, name, occupation, age }) => (
         </div>
       )}
     </div>
-  </Col>
+  </div>
 )
 
 class Testimonials extends React.Component {
@@ -68,6 +69,20 @@ class Testimonials extends React.Component {
     })
   }
 
+  componentDidMount() {
+    this.iso = new Isotope('.grid', {
+      itemSelector: '.grid-item',
+      percentPosition: true,
+      masonry: {
+        columnWidth: '.grid-sizer'
+      }
+    });
+  }
+
+  componentDidUpdate() {
+    this.iso.layout();
+  }
+
   render() {
     let { intl } = this.props
 
@@ -82,9 +97,10 @@ class Testimonials extends React.Component {
             </Link>
             <Button
               variant="secondary"
-              onClick={() =>
+              onClick={() => {
                 this.setState({ sortByTime: !this.state.sortByTime })
-              }
+
+              }}
             >
               {intl.formatMessage({ id: 'index.testimonials.sort-by' })}{' '}
               {intl.formatMessage({
@@ -95,7 +111,8 @@ class Testimonials extends React.Component {
             </Button>
           </Col>
         </Row>
-        <Row className="pb-3">
+        <Row className="pb-3 grid">
+          <div className="grid-sizer"/>
           {(this.state.sortByTime ? this.itemsByTime : this.itemsByName).map(
             (item, idx) => (
               <Item

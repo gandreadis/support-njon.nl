@@ -1,0 +1,13 @@
+.grid-sizer, .grid-item {
+  width: 33.333%;
+}
+
+.grid-item--width2 {
+  width: 66.666%;
+}
+
+@media (max-width: 992px) {
+  .grid-sizer, .grid-item, .grid-item--width2 {
+    width: 100%;
+  }
+}

@@ -19,6 +19,7 @@
     "gatsby-plugin-sitemap": "2.4.5",
     "gatsby-source-filesystem": "2.3.11",
     "isomorphic-fetch": "^2.2.1",
+    "isotope-layout": "^3.0.6",
     "js-yaml": "3.14.0",
     "jsdom": "^16.2.2",
     "node-sass": "4.14.1",
