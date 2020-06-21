@@ -90,11 +90,12 @@ class Testimonials extends React.Component {
       <Container>
         <Row className="pt-3" noGutters={true}>
           <Col className="text-right" xs={12}>
-            <Link to="/submit" className="mr-1">
+            <Link to="/submit" className="mr-sm-1 mb-xs-1">
               <Button variant="primary">
                 {intl.formatMessage({ id: 'index.testimonials.short-submit' })}
               </Button>
             </Link>
+            <br className="d-sm-none"/>
             <Button
               variant="secondary"
               onClick={() => {

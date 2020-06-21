@@ -16,6 +16,7 @@ import {
   WhatsappIcon,
   WhatsappShareButton,
 } from 'react-share'
+import Markdown from 'react-remarkable'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -27,16 +28,23 @@ const Index = ({ intl }) => (
     <SEO title="Home" keywords={[`support njon`, `njon`, `jon`, `campagne`]} />
     <div className="image-jumbotron flex-shrink-0">
       <Container>
-        <div>Jeugdorkest Nederland</div>
-        <div>Nationaal Jeugdorkest</div>
-        <div>NJO Muziekzomer</div>
+        <Row>
+          <Col lg={7} xs={12} className="action-title align-self-center">
+            {intl.formatMessage({ id: 'generic.action-title' })}
+          </Col>
+          <Col lg={5} xs={12} className="orchestras align-self-end pb-2">
+            <div>Jeugdorkest Nederland</div>
+            <div>Nationaal Jeugdorkest</div>
+            <div>NJO Muziekzomer</div>
+          </Col>
+        </Row>
       </Container>
     </div>
     <Container>
       <Row className="py-3">
         <Col xl={9} lg={8} md={7} sm={12}>
           <p className="lead pb-2">
-            {intl.formatMessage({ id: 'index.explanation' })}
+            <Markdown>{intl.formatMessage({ id: 'index.explanation' })}</Markdown>
           </p>
         </Col>
         <Col xl={3} lg={4} md={5} sm={12}>

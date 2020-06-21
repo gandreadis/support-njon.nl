@@ -1,6 +1,7 @@
 ---
 generic:
   title: Support the NJON
+  action-title: The National Youth Orchestras of the Netherlands need to stay!
 
 nav:
   sign-petition: Sign the petition!
@@ -18,7 +19,16 @@ footer:
 
 index:
   explanation: |
-    Explicabo quod eos magnam vero aut placeat. Sed quibusdam a aspernatur quibusdam beatae itaque dolores. Quia ea amet ipsam dolor ipsam. Officia ipsum fuga provident aut quis velit. Quis aut at sint voluptate. Eum sit minima quia consequatur. Voluptatem quia occaecati porro odit architecto quidem. Minima ipsam velit rerum itaque ut perferendis modi porro. Vel odit et est aliquam. Sed quidem doloribus illo est possimus dolores error rerum. Recusandae blanditiis labore sit nisi. Qui itaque quaerat ea. Ratione occaecati incidunt quasi ipsum numquam neque fugiat.
+    The National Youth Orchestras of the Netherlands (NJON), the organisation behind, among others, the Nationaal Jeugd Orkest (NJO), Jeugdorkest Nederland (JON) and the NJO Muziekzomer, received a negative BIS-advice from the Dutch Council for Culture concerning their basic infrastructure funding 2021-2024. The advice contains several erroneous arguments and therefore the NJON has formally objected. Given the role of the council towards the government, the current advice harms the organisation of NJON and might endanger the continuity of the NJON.
+
+    Time to act! This website offers a platform for the people that do regard NJON as the place for education and participation for young musicians with a musical dream. Let’s support NJON’s objection as a collective!
+
+    What you can do:
+    1. Sign the petition
+    2. Place a personal message on this website
+    3. Share website and petition
+
+    NJON should stay!
   bis-advice: Read the full BIS advisory document by the Dutch government
   media:
     title: Media coverage
@@ -27,7 +37,7 @@ index:
     trouw: Article in Trouw
   testimonials:
     why-submit: Do you agree that the NJON's orchestras should continue to exist?
-    submit: Submit your own message about the NJON!
+    submit: Submit your own message!
     short-submit: Submit your own message
     sort-by: Sorted by
     sort-by-date: time of submission
@@ -38,8 +48,8 @@ index:
 submit:
   title: Submit a Testimonial
   text:
-    label: Why are the NJON's youth orchestras valuable to you?
-    placeholder: Your reason/experiences...
+    label: Why are the NJON’s youth orchestras valuable to you? What makes NJON indispensable?
+    placeholder: Your reasons/experiences...
     explanation: Characters
   personal:
     title: Your information

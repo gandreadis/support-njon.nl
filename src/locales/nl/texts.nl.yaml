@@ -1,6 +1,7 @@
 ---
 generic:
   title: Support de NJON
+  action-title: Nationale Jeugdorkesten Nederland moeten blijven bestaan!
 
 nav:
   sign-petition: Teken de petitie!
@@ -18,7 +19,17 @@ footer:
 
 index:
   explanation: |
-    Explicabo quod eos magnam vero aut placeat. Sed quibusdam a aspernatur quibusdam beatae itaque dolores. Quia ea amet ipsam dolor ipsam. Officia ipsum fuga provident aut quis velit. Quis aut at sint voluptate. Eum sit minima quia consequatur. Voluptatem quia occaecati porro odit architecto quidem. Minima ipsam velit rerum itaque ut perferendis modi porro. Vel odit et est aliquam. Sed quidem doloribus illo est possimus dolores error rerum. Recusandae blanditiis labore sit nisi. Qui itaque quaerat ea. Ratione occaecati incidunt quasi ipsum numquam neque fugiat.
+    Nationale Jeugdorkesten Nederland (NJON), de organisatie achter o.a. het Nationaal Jeugdorkest (NJO), Jeugdorkest Nederland (JON) en de NJO Muziekzomer Gelderland, heeft een negatief advies gekregen van de Raad voor Cultuur over de subsidieaanvraag voor de Basisinfrastructuur (BIS) 2021-2024. Het advies bevat onjuistheden en NJON heeft dan ook bezwaar aangetekend. Gezien de rol en invloed van de Raad is het advies schadelijk voor de organisatie en brengt het de continuïteit van NJON in gevaar.
+
+    Tijd voor actie! Deze website is bedoeld als verzamelplaats voor alle geluiden van mensen die NJON wél zien als de plek voor educatie en participatie voor de jonge musicus met een droom. Op deze manier kunnen we NJON collectief steunen in hun bezwaar!
+
+    Dit kunt u doen:
+
+    1. Teken de petitie
+    2. Plaats een persoonlijk bericht
+    3. Deel petitie en website met je netwerk
+
+    NJON moeten blijven bestaan!
   bis-advice: Lees hier het volledige BIS-advies van de Raad voor Cultuur
   media:
     title: Aandacht in de media
@@ -26,8 +37,8 @@ index:
     njo: Kritiekpunten NJON op BIS-advies Raad voor Cultuur
     trouw: "Trouw: De jeugd heeft de toekomst, toch?"
   testimonials:
-    why-submit: Vind jij het ook belangrijk dat de orkesten van het NJON blijven bestaan?
-    submit: Plaats jouw bericht over de NJON!
+    why-submit: Wil jij ook dat de orkesten van het NJON blijven bestaan?
+    submit: Plaats jouw bericht!
     short-submit: Plaats jouw eigen bericht
     sort-by: Gesorteerd op
     sort-by-date: tijdstip
@@ -36,9 +47,9 @@ index:
     title: Deel deze pagina
 
 submit:
-  title: Een bericht over het NJON plaatsen
+  title: Een bericht over de NJON plaatsen
   text:
-    label: Waarom zijn de jeugdorkesten van het NJON onmisbaar voor jou?
+    label: Wat hebben de jeugdorkesten van NJON direct of indirect voor jou betekend? Wat maakt NJON onmisbaar?
     placeholder: Jouw redenen/ervaringen...
     explanation: Karakters
   personal:

@@ -10,10 +10,7 @@ const Videos = () => (
     <Container>
       <Carousel interval={null} className="p-0 mx-auto row w-100">
         <Carousel.Item className="text-center">
-          <Video id="BcMBhCEuuwg" />
-        </Carousel.Item>
-        <Carousel.Item className="text-center">
-          <Video id="BcMBhCEuuwg" />
+          <Video id="Xg_Xkh39qPQ" />
         </Carousel.Item>
       </Carousel>
     </Container>
