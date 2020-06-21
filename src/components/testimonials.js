@@ -2,7 +2,7 @@ import React from 'react'
 import { injectIntl, Link } from 'gatsby-plugin-intl'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import * as PropTypes from 'prop-types'
-import * as Isotope from 'isotope-layout';
+import * as Isotope from 'isotope-layout'
 
 const ITEMS = [
   {
@@ -23,12 +23,13 @@ const ITEMS = [
 ]
 
 const Item = ({ text, name, occupation, age }) => (
-  <div className={`text-white p-1 grid-item ${text.length > 500 ? 'grid-item--width2' : ''}`}>
+  <div
+    className={`text-white p-1 grid-item ${
+      text.length > 500 ? 'grid-item--width2' : ''
+    }`}
+  >
     <div className="p-2 bg-dark">
-      <p
-        className="lead"
-        style={{ marginBottom: name || occupation ? 20 : 0 }}
-      >
+      <p className="lead" style={{ marginBottom: name || occupation ? 20 : 0 }}>
         {text}
       </p>
       {(name || occupation) && (
@@ -74,13 +75,13 @@ class Testimonials extends React.Component {
       itemSelector: '.grid-item',
       percentPosition: true,
       masonry: {
-        columnWidth: '.grid-sizer'
-      }
-    });
+        columnWidth: '.grid-sizer',
+      },
+    })
   }
 
   componentDidUpdate() {
-    this.iso.layout();
+    this.iso.layout()
   }
 
   render() {
@@ -95,12 +96,11 @@ class Testimonials extends React.Component {
                 {intl.formatMessage({ id: 'index.testimonials.short-submit' })}
               </Button>
             </Link>
-            <br className="d-sm-none"/>
+            <br className="d-sm-none" />
             <Button
               variant="secondary"
               onClick={() => {
                 this.setState({ sortByTime: !this.state.sortByTime })
-
               }}
             >
               {intl.formatMessage({ id: 'index.testimonials.sort-by' })}{' '}
@@ -113,7 +113,7 @@ class Testimonials extends React.Component {
           </Col>
         </Row>
         <Row className="pb-3 grid">
-          <div className="grid-sizer"/>
+          <div className="grid-sizer" />
           {(this.state.sortByTime ? this.itemsByTime : this.itemsByName).map(
             (item, idx) => (
               <Item

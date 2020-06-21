@@ -30,7 +30,20 @@ const Index = ({ intl }) => (
       <Container>
         <Row>
           <Col lg={7} xs={12} className="action-title align-self-center">
-            {intl.formatMessage({ id: 'generic.action-title' })}
+            <div className="mb-3">
+              {intl.formatMessage({ id: 'generic.action-title' })}
+            </div>
+            <div>
+              <div className="p-3 lead bg-primary d-inline-block">
+                <h4>{intl.formatMessage({ id: 'index.action.title' })}</h4>
+                1. {intl.formatMessage({ id: 'index.action.1' })}
+                <br />
+                2. {intl.formatMessage({ id: 'index.action.2' })}
+                <br />
+                3. {intl.formatMessage({ id: 'index.action.3' })}
+                <br />
+              </div>
+            </div>
           </Col>
           <Col lg={5} xs={12} className="orchestras align-self-end pb-2">
             <div>Jeugdorkest Nederland</div>
@@ -44,7 +57,9 @@ const Index = ({ intl }) => (
       <Row className="py-3">
         <Col xl={9} lg={8} md={7} sm={12}>
           <p className="lead pb-2">
-            <Markdown>{intl.formatMessage({ id: 'index.explanation' })}</Markdown>
+            <Markdown>
+              {intl.formatMessage({ id: 'index.explanation' })}
+            </Markdown>
           </p>
         </Col>
         <Col xl={3} lg={4} md={5} sm={12}>

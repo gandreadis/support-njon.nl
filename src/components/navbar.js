@@ -5,7 +5,7 @@ import { Nav, Navbar } from 'react-bootstrap'
 import Container from 'react-bootstrap/Container'
 import LanguageSwitcher from './language'
 import * as PropTypes from 'prop-types'
-import {FaFacebook} from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
 
 const PETITION_COUNT = process.env.PETITION_COUNT
 
@@ -56,7 +56,13 @@ class CustomNavbar extends React.Component {
           fixed="top"
         >
           <Container>
-            <Link to="/" style={{opacity: this.state.transparent && pageInfo.name === 'index' ? 0 : 1}}>
+            <Link
+              to="/"
+              style={{
+                opacity:
+                  this.state.transparent && pageInfo.name === 'index' ? 0 : 1,
+              }}
+            >
               <Navbar.Brand
                 as="span"
                 className="text-light"
@@ -91,7 +97,7 @@ class CustomNavbar extends React.Component {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaFacebook size={22}/>
+                  <FaFacebook size={22} />
                 </a>
                 <LanguageSwitcher />
               </Nav>

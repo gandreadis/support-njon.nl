@@ -1,12 +1,11 @@
 .image-jumbotron {
   background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(/nic-limper-photo.jpg) no-repeat center bottom;
   background-size: cover;
-  padding: 180px 0 220px 0;
+  padding: 100px 0 100px 0;
   @extend .text-white;
 
   .action-title, .orchestras {
     @extend .font-family-header;
-
   }
 
   .action-title {
