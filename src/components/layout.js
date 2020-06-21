@@ -47,10 +47,9 @@ const Layout = ({ children, pageInfo }) => (
             sizes="16x16"
             href="/favicon-16x16.png"
           />
-          <link rel="manifest" href="/manifest.json" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <meta name="msapplication-config" content="/browserconfig.xml" />
-          <meta name="theme-color" content="#00a6ed" />
+          <meta name="theme-color" content="#f07f03" />
 
           <html className="is-fullheight" lang="nl" />
           <body className="is-fullheight bg-light" />
