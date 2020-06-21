@@ -1,6 +1,6 @@
 ---
 generic:
-  title: Support the NJON
+  title: Support NJON
   action-title: The National Youth Orchestras of the Netherlands need to stay!
 
 nav:
@@ -37,8 +37,8 @@ index:
   bis-advice: Read the full BIS advisory document by the Dutch government
   media:
     title: Media coverage
-    njon: Official statement of the NJON
-    njo: Critique by the NJON of the government BIS advice
+    njon: Official statement by NJON
+    njo: Critique by NJON of the government BIS advice
     trouw: Article in Trouw
   testimonials:
     why-submit: Do you agree that the NJON's orchestras should continue to exist?

@@ -1,6 +1,6 @@
 ---
 generic:
-  title: Support de NJON
+  title: Support NJON
   action-title: Nationale Jeugdorkesten Nederland moeten blijven bestaan!
 
 nav:
@@ -38,11 +38,11 @@ index:
   bis-advice: Lees hier het volledige BIS-advies van de Raad voor Cultuur
   media:
     title: Aandacht in de media
-    njon: Berichtgeving van de NJON
+    njon: Berichtgeving van NJON
     njo: Kritiekpunten NJON op BIS-advies Raad voor Cultuur
     trouw: "Trouw: De jeugd heeft de toekomst, toch?"
   testimonials:
-    why-submit: Wil jij ook dat de orkesten van het NJON blijven bestaan?
+    why-submit: Wil jij ook dat de orkesten van NJON blijven bestaan?
     submit: Plaats jouw bericht!
     short-submit: Plaats jouw eigen bericht
     sort-by: Gesorteerd op
@@ -52,7 +52,7 @@ index:
     title: Deel deze pagina
 
 submit:
-  title: Een bericht over de NJON plaatsen
+  title: Een bericht plaatsen
   text:
     label: Wat hebben de jeugdorkesten van NJON direct of indirect voor jou betekend? Wat maakt NJON onmisbaar?
     placeholder: Jouw redenen/ervaringen...
