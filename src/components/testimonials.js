@@ -47,21 +47,26 @@ const ITEMS = [
 
 const Item = ({ text, name, occupation, age }) => (
   <div
-    className={`text-white p-1 grid-item ${
-      text.length > 500 ? 'grid-item--width2' : ''
+    className={`text-white grid-item ${
+      text.length > 700 ? 'grid-item--width2' : ''
     }`}
   >
-    <div className="p-2 bg-dark">
-      <p className="lead" style={{ marginBottom: name || occupation ? 20 : 0 }}>
-        {text}
-      </p>
-      {(name || occupation) && (
-        <div className="lead text-right" style={{ fontSize: '1rem' }}>
-          {name && name + (age ? ` (${age})` : '')}
-          {occupation ? <br /> : undefined}
-          <span className="font-italic">{occupation}</span>
-        </div>
-      )}
+    <div className="p-1">
+      <div className="p-2 bg-dark">
+        <p
+          className="lead"
+          style={{ marginBottom: name || occupation ? 20 : 0 }}
+        >
+          {text}
+        </p>
+        {(name || occupation) && (
+          <div className="lead text-right" style={{ fontSize: '1rem' }}>
+            {name && name + (age ? ` (${age})` : '')}
+            {occupation ? <br /> : undefined}
+            <span className="font-italic">{occupation}</span>
+          </div>
+        )}
+      </div>
     </div>
   </div>
 )
