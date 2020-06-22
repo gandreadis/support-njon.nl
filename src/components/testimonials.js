@@ -276,6 +276,20 @@ const ITEMS = [
     occupation: 'Afgestudeerd Altviool, Koninklijk Conservatorium',
     age: '24',
   },
+  {
+    text:
+      'Het NJON komt het dichtste in de buurt van een professioneel klassiek orkest, onmisbaar geweest voor mij als conservatorium student, maar ook heeft het mij veel ervaring en contacten laten opdoen die voor mij nog tot ver na mijn studie hebben geholpen. Het NJON heeft mij de mogelijkheid gegeven onmisbaar repertoire te laten uitvoeren en is alles wat het educatief programma, die de meeste conservatoria in Nederland missen, af maakt.',
+    name: 'Rachel Daniels',
+    occupation: 'Student cello / freelance musicus',
+    age: '24',
+  },
+  {
+    text:
+      'Geweldig veel geleerd bij de diverse nationale jeugdorkesten. Niet alleen op muzikaal vlak, maar je komt met zoveel verschillende mensen in contact en daar leer je ook van. Muziek als bindmiddel ten top',
+    name: 'Paul van Aubel',
+    occupation: 'Saxofonist en docent geschiedenis',
+    age: '40',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
