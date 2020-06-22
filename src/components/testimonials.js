@@ -128,6 +128,14 @@ const ITEMS = [
     occupation: 'Voormalig solo trompettist KMK, dirigent',
     age: '47',
   },
+  {
+    text:
+      'As former member of the NJO, I feel I have to say that the Netherlands is such a lucky country to develop a project as NJON, with its complexity and versatility. Not only the Dutch students, but many young people from all around Europe can share a fantastic project with wonderful programme, team and artistic direction. I sincerely think that, by disappearing those youth orchestras, there would be many young students who would miss something in their education, while the society in general would for sure miss such a valuable actor among their culture field.',
+    name: 'Guillem Serra',
+    occupation:
+      'Freelance Horn player, former student Master Maastricht Conservatorium and former NJO member',
+    age: '25',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
