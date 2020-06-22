@@ -248,6 +248,27 @@ const ITEMS = [
     occupation: 'Freelance violiste, en student orkestdirectie en compositie',
     age: '29',
   },
+  {
+    text:
+      'Ik kwam als 14-jarige voor het eerst bij het JON. Bij de eerste repetitie was ik diep onder de indruk van alles wat er om me heen gebeurde. Ik had nog nooit zoiets meegemaakt, onderdeel te zijn van zo’n mooie grote klank, voortgebracht door een groep enthousiaste jongeren met dezelfde passie voor muziek. Die dag besloot ik dat ik violist wilde worden. Een paar jaar later stroomde ik door naar het NJO, een leerschool die perfect aansloot op het JON, waar ik nog meer bijzondere en belangrijke lessen heb geleerd over muziek maken en samenwerken. Het NJON was voor mij de doorslaggevende stimulans voor een toekomst in de muziek, en daarin ben ik zeker niet de enige.',
+    name: 'Valentine Blangé',
+    occupation: 'Student viool aan Koninklijk Conservatorium, Den Haag',
+    age: '',
+  },
+  {
+    text:
+      'Toen ik in 2016 begon heeft het JON voor mij de deuren opengezet richting de muziekwereld! Zowel het JON als NJO speelt een ontzettend belangrijke rol in de ontwikkeling van muzikanten en daarom is het NJON onmisbaar! Ook voor mij was het JON een hele goede plek om mijzelf te ontplooien in het orkest en hoop dat de NJON nog lang mag blijven bestaan!',
+    name: 'Camiel Lemmens',
+    occupation: 'Hoornstudent aan het Conservatorium Maastricht, JON orkestlid',
+    age: '20',
+  },
+  {
+    text:
+      'Als ouder kan ik zien hoeveel mijn kind geniet als hij kan spelen met dit fantastische orkest, dit moet blijven!',
+    name: 'G. Wassenaar',
+    occupation: 'Directeur Wassenaar Inspecties',
+    age: '55',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
