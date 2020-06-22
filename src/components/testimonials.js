@@ -65,6 +65,20 @@ const ITEMS = [
       'Bastrombonist Regimentsfanfare ‘garde grenadiers en jagers‘ / docent scholen in de kunst Amersfoort',
     age: '36',
   },
+  {
+    text:
+      'Het JON is voor mij de groeivijver voor mijn muzikaal spel geworden, ik vind hier uitdaging en mogelijkheid tot ontwikkeling die ik anders nooit had kunnen krijgen. Ook is het JON belangrijk voor mijn vriendschappen en contacten binnen de muziekwereld. Het JON is voor mij uniek omdat het mij heeft geleerd op hoog niveau met anderen muziek te maken en dit is dan ook heel waardevol geweest sociale en muzikale ontwikkeling en heeft het mij muzikale contacten geboden die verzekeren dat ik door zal gaan met muziek maken.',
+    name: 'Marit',
+    occupation: 'Student Global Sustainability Science, altviolist',
+    age: '18',
+  },
+  {
+    text:
+      'Ik heb jaren in het JON en NJO gespeeld en ben intussen professioneel violiste. Zonder JON en NJO had ik nooit gekozen voor een carriere in de muziek. De regionale jeugdorkesten zijn leuk om in te spelen, maar om professionele musici in dit land te kunnen hebben is het hebben van Nationale Jeugdorkesten noodzakelijk! Het niveau is niet te vergelijken met regionale plaatselijke jeugdorkesten. Op het grond van dit niveau en opleidingstraject kan talent groeien, wat anders niet zo kan groeien. Dit is een hele belangrijke community voor het voortbestaan van de Nederlandse orkestcultuur. We bezuinigen het jong Oranje toch ook niet weg? Zonder dit traject zal er bijna niemand meer kiezen voor een carriere in de klassieke muziek en wordt onze cultuur aangetast op breed niveau: veel minder muziekdocenten, componisten, orkestmusici, kamermusici etc. Vrijwel elke beroepsmusicus heeft dit traject doorlopen en het is van essentieel belang voor het land dat het blijft bestaan.',
+    name: 'Marthe Lasthuis',
+    occupation: 'Violiste/Componiste/Viooldocent',
+    age: '30',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
