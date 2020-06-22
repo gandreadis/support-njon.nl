@@ -269,6 +269,13 @@ const ITEMS = [
     occupation: 'Directeur Wassenaar Inspecties',
     age: '55',
   },
+  {
+    text:
+      "Zonder de 3 jaar in het JON en 5 projecten met het NJO, was ik niet geweest waar ik nu ben als musicus. Beide orkesten hebben me enorm veel geleerd, me meer zelfvertrouwen gegeven en - niet ombelangrijk - mijn netwerk en kansen in 'het veld' enorm vergroot. Ik had de ervaringen in deze orkesten voor geen goud willen missen en vind het dan ook uiterst belangrijk dat het NJON kan blijven voortbestaan, zodat ook in de toekomst zo veel mogelijk musici hier ervaring kunnen opdoen en kunnen genieten en leren van op hoog niveau samen muziek maken.",
+    name: 'Rosanne Sloots',
+    occupation: 'Afgestudeerd Altviool, Koninklijk Conservatorium',
+    age: '24',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
