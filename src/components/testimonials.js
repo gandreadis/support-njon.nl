@@ -143,6 +143,13 @@ const ITEMS = [
     occupation: 'Historische Trompettist / Instrumentbouwer',
     age: '42',
   },
+  {
+    text:
+      'Nooit de kwaliteit gehad om in zo’n mooi orkest te spelen. Maar het moge duidelijk zijn dat klassieke muziek van groot belang is in een gezonde maatschappij. Los van alle economische argumenten over de cultuursector mag het leven vooral ook leuk zijn, zo lijkt mij. Daar hebben we musici voor nodig! En publiek! Dus ga door met het opleiden van de beide groepen en het bouwen aan een goede infrastructuur van professionele muziekdocenten. Je kunt er met je kop niet bij: als je een financieel onafhankelijke sector wilt dan heb je top professionals nodig en top publiek. Deze kortetermijn onzin kun je dan dus echt niet gebruiken. Het zullen wel de regeltjes zijn, het toetsingskader of weet ik wat voor krampachtige argumenten. Diepe zucht.',
+    name: 'Toine',
+    occupation: 'Liefhebber van goeie muziek!',
+    age: '31',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
