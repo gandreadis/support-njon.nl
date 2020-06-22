@@ -44,7 +44,7 @@ function loadTranslationObject(languageCode) {
 
 async function loadPetitionCount() {
   console.log('Loading petition website')
-  const response = await fetch('https://petities.nl/petitions/voorwaarts-mars-ruimte-voor-marsmuziek')
+  const response = await fetch('https://petities.nl/petitions/de-nationale-jeugdorkesten-nederland-horen-thuis-in-de-basisinfrastructuur-bis')
   const text = await response.text()
   console.log('Parsing petition website')
   const dom = await new JSDOM(text)
