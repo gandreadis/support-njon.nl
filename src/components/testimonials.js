@@ -241,6 +241,13 @@ const ITEMS = [
     occupation: 'Student altviool aan Codarts',
     age: '21',
   },
+  {
+    text:
+      'Het NJON is een cruciale schakel tussen muziekopleiding en beroepspraktijk. De kennis, ervaring en contacten die ik tijdens de vijf jaar dat ik in het NJO heb gespeeld heb opgedaan zijn onmisbaar geweest voor mijn muzikale ontwikkeling. Er is geen andere plek in Nederland waar jonge musici zo intensief kunnen samenwerken met vooraanstaande dirigenten, componisten, coaches en solisten, uitgebreid ervaring kunnen opdoen in diverse ensembles en genres (van barok met authentiek instrumentarium tot gloednieuwe composities, en van grote romantische orkestwerken tot samenwerkingen met pop en jazz), waar ze hun netwerk kunnen opbouwen en ook nog eens met enorm veel plezier en passie kunnen werken aan hun vakmanschap, orkestspel en muzikaal inzicht. De kwaliteit en de noodzaak van het NJO staat voor mij buiten kijf en het is voor mij onverteerbaar dat de Raad van Cultuur geen oog heeft voor de fundamentele rol die het NJO heeft in het Nederlandse muzieklandschap.',
+    name: 'Tiara Kobald',
+    occupation: 'Freelance violiste, en student orkestdirectie en compositie',
+    age: '29',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
