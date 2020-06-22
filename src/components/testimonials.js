@@ -191,6 +191,56 @@ const ITEMS = [
     occupation: 'Student cello aan het Koninklijk Conservatorium, Den haag',
     age: '22',
   },
+  {
+    text:
+      'Juist een orkest als het NJON is een kraamkamer voor talent in de klassieke muziek. Daarin moeten we zeker investeren om Nederland een land van kunst en cultuur te laten zijn. Het goed kunnen musiceren in een orkest is één groot leerproces, en dus een en al een kwestie van educatie. Als we dat niet meer kunnen zien, dan is er iets grondig mis met ons onderscheidingsvermogen.',
+    name: 'Liesbeth Feikema',
+    occupation: 'Onderzoeker',
+    age: '53',
+  },
+  {
+    text:
+      'Als jongen van 14 kwam ik voor het eerst bij het JON. De jaren die ik er sindsdien heb gespeeld hebben ontzettend veel betekend voor mij, zowel op muzikaal als sociaal gebied. Ik heb er enorm veel geleerd over samen spelen in een grote groep en muziekstukken op hoog niveau leren doorgronden. Het is de perfecte omgeving voor jonge musici om kennis te maken met het orkestspel en zich daarin te ontwikkelen. Het is ook een hele unieke kans voor jonge musici om contacten te leggen met leeftijdsgenoten in een bijzondere omgeving die je nergens anders vindt. De orkesten van het NJON zijn essentieel voor de ontwikkeling van jonge musici en mogen absoluut niet verdwijnen!',
+    name: 'Mischa Niemel',
+    occupation: 'Contrabassist bij het JON',
+    age: '19',
+  },
+  {
+    text:
+      'De NJON is een onmisbaar onderdeel van de Nederlandse muziekwereld. Onontbeerlijk voor orkestmusici in spe om te leren hoe een orkest werkt. Als je de NJON gaat afzagen is dat een verlies dat  gevolgen zal hebben voor de kwaliteit van de klassieke muziek in Nederland. Helaas blijft het niet bij de kwaliteit, ook wordt het web kapotgemaakt, aangezien de NJON een cruciaal opstapje is in de infrastructuur van klassieke muziek die over vele jaren is opgebouwd. Werkelijk onmisbare en waardevolle instanties!  Je kan ook niet zomaar jong oranje verwijderen omdat het niet genoeg vernieuwd...  Staat bovendien internationaal ook heel lelijk als je je succesvolle uithangbord voor jonge musici gaat wegsnijden.  Zowel het JON als het NJO hebben mij enorm geholpen om mijn doelen te kunnen realiseren!!',
+    name: 'Jonathan Wegloop',
+    occupation:
+      'Hoornist Mahler Chamber Orchestra, Luzern Festival Orchestra, WDR symfonie orkest',
+    age: '34',
+  },
+  {
+    text:
+      'Bij het NJO leerde ik om mijn vaardigheden als goede muzikant te ontwikkelen.  NJO heeft een zeer hoog niveau van spelen en daardoor leer ik veel van mijn jonge muzikale collega’s.',
+    name: 'Wilker Paredes',
+    occupation: 'Student altviool in CODARTS Rotterdam',
+    age: '23',
+  },
+  {
+    text:
+      'Mijn zoon ging als 14 jarige alleen naar het JON. Hij zei bij thuiskomst, "eindelijk heb ik ze gevonden, er zijn nog meer mensen van mijn leeftijd die echt samen muziek willen maken!" Hij maakt er vrienden voor het leven! Hij groeide ieder jaar, begon als muzikant, deed taken voor het bestuur, werd uitgedaagd om te arrangeren en dirigeren.  Hij heeft deelgenomen aan masterclasses van bevlogen musici die hem steeds dat extra zetje gaven. Door zijn deelname aan het jong Metropool is hij tijdens zijn studie zich extra gaan verdiepen in de Jazz.  Zelf heb ik ook genoten van vele concerten. In de buitenlucht, North Sea Jazz, maar ook in het concertgebouw of op het grachtenfestival. En steeds is er opvallend veel jeugd aanwezig. Mijn zoon heeft het NJO nog steeds nodig als goede basis om straks zijn droom waar te kunnen maken. Ik hoop alleen niet dat dit in het buitenland zal zijn omdat wij in Nederland dit prachtig stuk cultuur zullen moeten missen!',
+    name: 'Marianne',
+    occupation: 'Moeder van een zeer enthousiaste en bevlogen musicus in spe.',
+    age: '',
+  },
+  {
+    text:
+      'Tussen 2015 en 2019 heb ik deel uit mogen maken van het JON. Dit waren vier jaren waarin ik me als musicus ontzettend heb kunnen ontwikkelen. Hoewel ik uiteindelijk de beslissing heb genomen om niet professioneel musicus te willen zijn, blijven de ervaringen die ik bij het JON heb opgedaan altijd van waarde en heb ik nog regelmatig plezier van alles wat ik heb geleerd over muziek en orkestspel.',
+    name: 'Evelien Müller',
+    occupation: 'Student Radboud Universiteit',
+    age: '22',
+  },
+  {
+    text:
+      'Ik heb gespeeld in het JON en wil graag ook in het NJO spelen. Van het spelen in orkesten leer je zo ontzettend veel. Het is heel belangrijk voor de toekomst van iedere muzikant. Je bouwt kennissen op, leert stukken kennen en je groeit snel. Het is belangrijk voor jongeren en conservatorium studenten om ervaring op te bouwen voor de toekomst en dat gaat hardstikke goed bij NJON.',
+    name: 'Sofie Booy',
+    occupation: 'Student altviool aan Codarts',
+    age: '21',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
@@ -226,6 +276,7 @@ class Testimonials extends React.Component {
     this.state = { sortByTime: true }
 
     this.itemsByTime = [...ITEMS]
+    this.itemsByTime.reverse()
     this.itemsByName = [...ITEMS]
     this.itemsByName.sort((a, b) => {
       a.sortName = a.name
