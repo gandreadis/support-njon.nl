@@ -78,7 +78,7 @@ const Index = ({ intl }) => (
           </p>
           <p>
             <a
-              href="https://m.facebook.com/story.php?story_fbid=141210350892339&id=100050101248128"
+              href="https://facebook.com/story.php?story_fbid=141210350892339&id=100050101248128"
               target="_blank"
               rel="noreferrer"
             >

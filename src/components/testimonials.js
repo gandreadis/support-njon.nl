@@ -381,6 +381,19 @@ const ITEMS = [
     occupation: 'Freelance violist',
     age: '31',
   },
+  {
+    text:
+      'Het meespelen in het NJO was voor mij een van de mooiste en leerrijke ervaringen die ik heb mogen meemaken. Dit gun ik elke jonge musicus en mag dan ook onder geen enkele voorwaarde verdwijnen.',
+    name: 'Martijn Pepels',
+    occupation: 'Dirigent',
+    age: '41',
+  },
+  {
+    text: 'Zonder jeugd geen toekomst!',
+    name: 'Valdemar Semedo Moreira',
+    occupation: 'Audicien',
+    age: '47',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
