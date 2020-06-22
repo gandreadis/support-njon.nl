@@ -136,6 +136,13 @@ const ITEMS = [
       'Freelance Horn player, former student Master Maastricht Conservatorium and former NJO member',
     age: '25',
   },
+  {
+    text:
+      'Ik heb zowel in het JON als in het NJO ontzettend belangrijke en onmisbare ervaring opgedaan wat betreft het functioneren en spelen in een professioneel orkest. Ik ben nu werkzaam bij o.a. de Nederlandse Bachvereniging en het Orkest vd 18e eeuw en ik kan me niet voorstellen hoe jonge mensen zich fatsoenlijk kunnen voorbereiden op de (al steeds kleiner wordende) beroepswereld. Deze orkesten zijn echt essentieel voor de ontwikkeling van toekomstige orkestmusici en het zou een erg domme actie zijn om deze orkesten de nek om te draaien. Het is zo belangrijk dat we (vooral in een land als Nederland) blijven investeren in dat wat de wereld mooi maakt. Neem deze orkesten hun steun NIET af alsjeblieft! “Before a child speaks, it sings. Before they write, they paint. As soon as they stand, they dance. Art is the basis of human expression.” (Citaat: Phylicia Rashad)',
+    name: 'Mark Geelen',
+    occupation: 'Historische Trompettist / Instrumentbouwer',
+    age: '42',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
