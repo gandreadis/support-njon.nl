@@ -489,7 +489,7 @@ const ITEMS = [
   },
   {
     text:
-      'Enorm veel geleerd van meerde NJO projecten! Onmisbaar, essentieel voor de ontwikkeling van een conservatorium student.',
+      'Enorm veel geleerd van meerdere NJO projecten! Onmisbaar, essentieel voor de ontwikkeling van een conservatorium student.',
     name: 'Anna Jurriaanse',
     occupation: 'Student altviool Koninklijk Conservatorium Den Haag',
     age: '22',
