@@ -482,13 +482,6 @@ const ITEMS = [
   },
   {
     text:
-      'Niet direct voor mij maar ik hou van muziek en heb veel geleerd door in een orkest/bigband te spelen!',
-    name: 'Kim Mulder',
-    occupation: 'Student Landschapsarchitectuur, altsaxofonist bij bigband',
-    age: '19',
-  },
-  {
-    text:
       'Enorm veel geleerd van meerdere NJO projecten! Onmisbaar, essentieel voor de ontwikkeling van een conservatorium student.',
     name: 'Anna Jurriaanse',
     occupation: 'Student altviool Koninklijk Conservatorium Den Haag',
