@@ -1,5 +1,5 @@
 import React from 'react'
-import { injectIntl, Link } from 'gatsby-plugin-intl'
+import { injectIntl, IntlContextConsumer, Link } from 'gatsby-plugin-intl'
 
 import { Nav, Navbar } from 'react-bootstrap'
 import Container from 'react-bootstrap/Container'
@@ -74,14 +74,18 @@ class CustomNavbar extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto" activeKey={pageInfo && pageInfo.name}>
-                <a
-                  href="https://petities.nl/petitions/de-nationale-jeugdorkesten-nederland-horen-thuis-in-de-basisinfrastructuur-bis"
-                  className="btn btn-primary mr-1 mb-md-0 mb-1"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {intl.formatMessage({ id: 'nav.sign-petition' })}
-                </a>
+                <IntlContextConsumer>
+                  {({ language: currentLocale }) => (
+                    <a
+                      href={`https://petities.nl/petitions/de-nationale-jeugdorkesten-nederland-horen-thuis-in-de-basisinfrastructuur-bis?locale=${currentLocale}`}
+                      className="btn btn-primary mr-1 mb-md-0 mb-1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {intl.formatMessage({ id: 'nav.sign-petition' })}
+                    </a>
+                  )}
+                </IntlContextConsumer>
                 <div
                   className="bg-light py-1 px-2 mr-1 mb-md-0 mb-1"
                   title={intl.formatMessage({
