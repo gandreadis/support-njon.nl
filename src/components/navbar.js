@@ -75,7 +75,7 @@ class CustomNavbar extends React.Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto" activeKey={pageInfo && pageInfo.name}>
                 <a
-                  href="https://petities.nl"
+                  href="https://petities.nl/petitions/de-nationale-jeugdorkesten-nederland-horen-thuis-in-de-basisinfrastructuur-bis"
                   className="btn btn-primary mr-1 mb-md-0 mb-1"
                   target="_blank"
                   rel="noreferrer"
