@@ -290,6 +290,33 @@ const ITEMS = [
     occupation: 'Saxofonist en docent geschiedenis',
     age: '40',
   },
+  {
+    text:
+      'Ik heb zelf nog nooit meegespeeld in orkesten NJON. Ik ken echter wel heel veel mensen met ervaringen in 1 van de orkesten. Ik kwam pas achter het bestaan van het JON toen ik te oud was om me op te geven. Sinds ik dit jaar het conservatorim begonnen ben wil ik wel heel graag een keer meedoen met NJO. Door de mensen die ik heb gesproken weet ik dat het één van de beste leerervaringen mogelijk is voor een beginnend professioneel muzikant.',
+    name: 'Sander Bos',
+    occupation: 'Student klassiek Harp aan Codarts Rotterdam',
+    age: '23',
+  },
+  {
+    text: 'Zonder basis geen top, zonder jeugd geen toekomst',
+    name: 'Wietze Eizenga',
+    occupation: 'Amateur',
+    age: '62',
+  },
+  {
+    text:
+      'Ik heb gezien hoe het NJON mijn vriendin de kans heeft gegeven om zichzelf muzikaal maar ook op breder niveau te ontwikkelen. Zonder de steun en de kansen die dit orkest biedt aan jonge muzikanten gaat er veel verloren. Een klassiek jeugdorkest is op zichzelf al waardevol, maar het biedt ook een mooie weg voor muzikanten om door te stromen naar de professionele klassieke muziekwereld. Waarom bezuinigen op zoiets moois?',
+    name: 'Sam',
+    occupation: 'Student Geschiedenis',
+    age: '19',
+  },
+  {
+    text:
+      'Bij het JON leer ik super veel over muziek! Naast dat we prachtige klassieke stukken spelen, spelen we ook nieuwe (moderne) werken (wat voor mij totaal nieuw was), krijgen we workshops (over bijvoorbeeld gamemuziek, alexander techniek, mind & body) en leer je om echt samen muziek te maken. Bovendien leer je ook nog eens goede vaardigheden, zoals doorzettingsvermogen, discipline en vrienden maken!',
+    name: 'Noa Pierik',
+    occupation: 'Altviolist bij het JON',
+    age: '18',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
