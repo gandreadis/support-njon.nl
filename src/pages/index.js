@@ -69,24 +69,6 @@ const Index = ({ intl }) => (
           </h4>
           <p>
             <a
-              href="https://www.jeugdorkest.nl/njon-tekenen-bezwaar-aan-tegen-negatief-bis-advies-raad-voor-cultuur/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {intl.formatMessage({ id: 'index.media.njon' })}
-            </a>
-          </p>
-          <p>
-            <a
-              href="https://www.njo.nl/BIS-advies"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {intl.formatMessage({ id: 'index.media.njo' })}
-            </a>
-          </p>
-          <p>
-            <a
               href="https://www.trouw.nl/ws-b546043d"
               target="_blank"
               rel="noreferrer"
@@ -104,13 +86,31 @@ const Index = ({ intl }) => (
               borderStyle: 'solid',
             }}
           />
-          <p className="py-1">
+          <p className="pt-1 pb-2">
             <a
               href="https://www.raadvoorcultuur.nl/binaries/raadvoorcultuur/documenten/adviezen/2020/06/04/ontwikkelfunctie2/Advies+Nationale+Jeugdorkesten+Nederland+%282021-2024%29.pdf"
               target="_blank"
               rel="noreferrer"
             >
               {intl.formatMessage({ id: 'index.bis-advice' })}
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.jeugdorkest.nl/njon-tekenen-bezwaar-aan-tegen-negatief-bis-advies-raad-voor-cultuur/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {intl.formatMessage({ id: 'index.media.njon' })}
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.njo.nl/BIS-advies"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {intl.formatMessage({ id: 'index.media.njo' })}
             </a>
           </p>
         </Col>

@@ -92,7 +92,7 @@ class CustomNavbar extends React.Component {
                   {intl.formatMessage({ id: 'nav.signatures.label' })}
                 </div>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/Support-NJON-103100624793162/"
                   className="btn btn-dark mr-1 mb-md-0 mb-1"
                   target="_blank"
                   rel="noreferrer"
