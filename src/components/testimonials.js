@@ -394,6 +394,106 @@ const ITEMS = [
     occupation: 'Audicien',
     age: '47',
   },
+  {
+    text:
+      'Via een regionaal jeugdorkest als de Vuurvogel, naar JON, NJO en dan rijp voor de kwalitatief hoogstaande orkesten die ons land rijk is. Daar MAG niet een schakel ontbreken.',
+    name: 'Albert Dam',
+    occupation: 'dirigent Vuurvogel Jeugdorkest, docent Muziek V.O.',
+    age: '47',
+  },
+  {
+    text:
+      'Het NJON is voor mij en vele anderen een plek geweest waar ik heel veel geleerd heb en het plezier van samenspelen heb ontdekt. Onmisbaar in het opleiden en aanmoedigen van jonge talenten.',
+    name: 'Julia Kleinsmann',
+    occupation: 'Freelance violist en student CvA',
+    age: '25',
+  },
+  {
+    text:
+      'Het ervaren en beleven van het ‘top-repertoire’ samen met andere jeugdige top-talenten is onontbeerlijk in de ontwikkeling van een beroepsmuzikant.  Voeg daarbij een gerenommeerd dirigent en er is een geweldige kweekschool voor topmusici. Het NJON mag daarom zeker niet ontbreken in de cultuursector.',
+    name: 'Christiaan Janssen',
+    occupation: 'Componist',
+    age: '',
+  },
+  {
+    text:
+      'Auditeren, groepsrepetities van professionals in jouw instrument groep, workshops, professionele houding aannemen, dagenlang reperteren onder leiding van gerenommeerde dirigenten, spelen in de betere zalen, optreden voor groter publiek, samenspelen met gelijkgestemden en ontelbare indrukken en verhalen. Allemaal dingen die ik gemist zou hebben. Ik weet ook niet of ik ooit gedacht zou hebben aan een conservatorium-studie als ik niet van jongs af aan (14) dit allemaal mee had kunnen maken. Zo veel ervaringen die je nergens anders (maar dan ook echt, nergens anders) kunt krijgen!! En dan heb ik het nog niets eens over het sociale aspecten de overstap naar het professionele leven.',
+    name: 'Erik Klinkhamer',
+    occupation: 'Docent Muziek op een MBO',
+    age: '36',
+  },
+  {
+    text:
+      'De NJO tournees die ik mee heb mogen maken waren stuk voor stuk onvergetelijke en onmisbare ervaringen... Turangalila en de Wonderbaarlijke Mandarijn met Reinbert, Mahler 6 met Wigglesworth... Het is ook nu nog steeds enorm leerzaam en inspirerend om al het nieuwe talent te mogen beluisteren als jurylid tijdens audities en groepsrepetities. De Raad voor Cultuur vindt dat er te weinig innovatie is? Hoeveel nieuwe publieksconcepten zijn er de laatste jaren wel niet met succes uitgeprobeerd tijdens de NJO muziekzomer, jonge artists en composers in residence, en nog eens wat: een fantastisch aanbod voor het publiek in de provincie Gelderland. Kan nog wel even doorgaan, maar dit zou toch boven iedere twijfel verheven moeten zijn? Het is waar dat er steeds minder banen zijn in Nederland, maar er wordt toch ook in topsport / teamsport geinvesteerd? Kan iemand me vertellen hoeveel overheidsgeld er naar jong sporttalent gaat?',
+    name: 'Twan Dubbers',
+    occupation: 'Bastrombonist Residentie Orkest',
+    age: '44',
+  },
+  {
+    text:
+      'Talent moet groeien en bloeien. Jeugdorkesten zijn de humus voor cultuur.  Zonder vruchtbare bodem ontkiemt talent niet.  Daarnaast heeft jeugd gelijkgestemden nodig om elkaar energie te geven.',
+    name: 'Johan Meesters',
+    occupation:
+      'Voorzitter OMF (Organisatie van Muziekverenigingen in Fryslân)',
+    age: '51',
+  },
+  {
+    text:
+      'Ik ben zelf geen professioneel musicus, maar ik heb in diverse jeugd- en studentenorkesten gespeeld. Ik heb ontzettend veel geleerd in die periode. Ik heb geleerd hoe een partij in te studeren, ik heb geleerd hoe samen te spelen, ik heb inzicht gekregen in de structuur van de werken die we gespeeld hebben. Ik heb audities moeten doen en heb geleerd me hierop voor te bereiden. Dit moet van onschatbare waarde geweest zijn voor mijn medeorkestleden die wel uiteindelijk professioneel geworden zijn. De bewering dat de jeugdorkesten van NJON te weinig een rol in de educatie spelen (wat een belangrijke reden was om de subsidie te stoppen) is ofwel een flagrante leugen ofwel getuigt van complete onwetendheid. Juist deze orkesten zijn van onmisbaar belang in de educatie van jonge, aankomende musici! Ik roep op deze beslissing terug te draaien!',
+    name: 'Bert Lindenhovius',
+    occupation: 'Postdoc, Tulane University, New Orleans',
+    age: '35',
+  },
+  {
+    text:
+      'In het JON heb ik dingen geleerd waarvan ik al 20 jaar plezier en profijt heb. Uiteraard vioolspelen in groepsverband, goed luisteren, orkestspel. Liefde en kennis voor en over muziek. Concentratie, discipline. Vele waardevolle vriendschappen die tot op de dag van vandaag levend zijn. En vooral dat samenspel nog meer kan opleveren dan de som der delen. Ik ben uiteindelijk een ander beroep gaan uitoefenen maar ook in mijn huidige werk als neuroloog gebruik ik dagelijks de skills die ik in het JON heb opgedaan. Ik gun ieder kind een dergelijke leerzame en inspirerende ervaring.  Laat dit schitterende instituut niet verloren gaan!',
+    name: 'Judith Schouten',
+    occupation: 'Neuroloog, amateur violist',
+    age: '40',
+  },
+  {
+    text:
+      'NJO is een belangrijk orkest voor muziekstudenten in Spee! Mendig musicus is ooit in het NJO begonnen. Het is ondenkbaar dat het NJO ophoud te bestaan!',
+    name: '',
+    occupation: '',
+    age: '',
+  },
+  {
+    text:
+      'NJON was absoluut ONMISBAAR voor mijn carrière en mijn ontwikkeling als mens. Meer kwaliteit en passie op een kluitje heb ik nergens anders ooit gezien. Nederland kan echt niet zonder NJON!!!!',
+    name: 'Andrea Vasi',
+    occupation: 'Pianist',
+    age: '31',
+  },
+  {
+    text:
+      "I've been a member of NJON in my youth, this international experience at the highest artistical level has meant a lot in my learning process.",
+    name: 'Elisa Schack',
+    occupation:
+      'Professional musician, violinist member of Italian national Radio Symphony Orchestra - RAI',
+    age: '',
+  },
+  {
+    text:
+      'Mijn dochter speelt in het NJON en wij, en vele anderen met ons, hebben in de loop der jaren genoten van deze jonge talentvolle musici. Ik heb er jongeren zien groeien, zij vormen één groot familie! Zij doen ervaring op zowel in het binnen-, als buitenland. Met veel trots hebben wij vorige seizoen onze eigen NJON bewonderd in het Rudolfinum in Praag! Het NJON moet blijven zodat deze jonge talenten op niveau muziek kunnen blijven maken en door kunnen ontwikkelen voor hun carrière als muzikant.',
+    name: 'Etienne',
+    occupation: 'Pedagogisch coach',
+    age: '43',
+  },
+  {
+    text:
+      'Niet direct voor mij maar ik hou van muziek en heb veel geleerd door in een orkest/bigband te spelen!',
+    name: 'Kim Mulder',
+    occupation: 'Student Landschapsarchitectuur, altsaxofonist bij bigband',
+    age: '19',
+  },
+  {
+    text:
+      'Enorm veel geleerd van meerde NJO projecten! Onmisbaar, essentieel voor de ontwikkeling van een conservatorium student.',
+    name: 'Anna Jurriaanse',
+    occupation: 'Student altviool Koninklijk Conservatorium Den Haag',
+    age: '22',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
