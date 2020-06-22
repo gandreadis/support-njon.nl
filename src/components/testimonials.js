@@ -74,6 +74,13 @@ const ITEMS = [
   },
   {
     text:
+      'Het NJON is een onmisbare kweekvijver voor jong talent, ik heb het destijds ook nodig gehad voor mijn ontwikkeling.  Verbijsterend dit advies, denk na en zie af van dit plan....',
+    name: 'Bart van Grinsven',
+    occupation: 'Musicus',
+    age: '34',
+  },
+  {
+    text:
       'Ik heb jaren in het JON en NJO gespeeld en ben intussen professioneel violiste. Zonder JON en NJO had ik nooit gekozen voor een carriere in de muziek. De regionale jeugdorkesten zijn leuk om in te spelen, maar om professionele musici in dit land te kunnen hebben is het hebben van Nationale Jeugdorkesten noodzakelijk! Het niveau is niet te vergelijken met regionale plaatselijke jeugdorkesten. Op het grond van dit niveau en opleidingstraject kan talent groeien, wat anders niet zo kan groeien. Dit is een hele belangrijke community voor het voortbestaan van de Nederlandse orkestcultuur. We bezuinigen het jong Oranje toch ook niet weg? Zonder dit traject zal er bijna niemand meer kiezen voor een carriere in de klassieke muziek en wordt onze cultuur aangetast op breed niveau: veel minder muziekdocenten, componisten, orkestmusici, kamermusici etc. Vrijwel elke beroepsmusicus heeft dit traject doorlopen en het is van essentieel belang voor het land dat het blijft bestaan.',
     name: 'Marthe Lasthuis',
     occupation: 'Violiste/Componiste/Viooldocent',
@@ -85,13 +92,6 @@ const ITEMS = [
     name: 'Marijke Zijlstra',
     occupation: 'Fagottist bij het Noord Nederlands Orkest',
     age: '',
-  },
-  {
-    text:
-      'Het NJON is een onmisbare kweekvijver voor jong talent, ik heb het destijds ook nodig gehad voor mijn ontwikkeling.  Verbijsterend dit advies, denk na en zie af van dit plan....',
-    name: 'Bart van Grinsven',
-    occupation: 'Musicus',
-    age: '34',
   },
   {
     text:
