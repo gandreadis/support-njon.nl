@@ -317,6 +317,70 @@ const ITEMS = [
     occupation: 'Altviolist bij het JON',
     age: '18',
   },
+  {
+    text:
+      'Simpel gezegd: in mijn 4 jaren in het JON is er een onmisbare basis gelegd. Zonder deze ervaringen was ik absoluut niet geweest waar ik nu ben! Het kunnen opdoen van deze ervaringen is van essentieel belang voor iedere jonge musicus die de ambitie heeft in een professioneel symfonieorkest te willen spelen. Om de kwaliteit van de komende generaties musici te waarborgen moeten deze orkesten vanzelfsprekend blijven bestaan!',
+    name: 'Mechthild Drop',
+    occupation:
+      'Trompettist Beethoven Orchester Bonn - Masterstudent Folkwang Universität der Künste Essen',
+    age: '25',
+  },
+  {
+    text:
+      'Het NJO heeft een heel belangrijke rol gespeeld in mijn ontwikkeling als muzikant. Het begint al bij het auditeren. Het NJO zorgt voor een veilige omgeving waar je leert hoe audities in zijn werk gaan. Daarna bieden ze fantastische projecten met een enorm professionele ondersteuning aan. Het NJO is essentieel geweest voor mijn muzikale groei, orkestervaring maar vooral ook zelfvertrouwen. Wat het NJO verwezenlijkt is uniek. De variëteit aan projecten op een enorm hoog niveau is ongezien en voor mij enorm waardevol.',
+    name: 'Willem-Jan Hendrickx',
+    occupation: 'Leraar/dirigent/trompettist',
+    age: '25',
+  },
+  {
+    text:
+      'Het is een onmisbaar stuk van je opleiding en dè plek om samenspel ervaring op te doen. Daarnaast leer je heel veel mensen kennen waarmee je een netwerk kunt creëren, ook erg belangrijk! Zonder mijn ervaringen in het JON en NJO had ik nooit bereikt waar ik nu ben.',
+    name: 'Rick Huls',
+    occupation:
+      'Soloklarinettist Nedpho en hoofdvakdocent klarinet aan het Koninklijk Conservatorium te Den Haag',
+    age: '50',
+  },
+  {
+    text:
+      'Young people should be able to explore music and the arts more freely. More art makes for a better society.',
+    name: 'Michael Boggia',
+    occupation: '',
+    age: '19',
+  },
+  {
+    text: 'De NJON is voor jeugdige muziekanten heel belangrijk',
+    name: 'Ricardo Meye',
+    occupation: 'Gepensioneerd',
+    age: '73',
+  },
+  {
+    text:
+      'Bij het JON pas echt in een orkest leren spelen. Hier heb ik onvergetelijke ervaringen opgedaan en is mijn passie voor de muziek pas echt opgelaaid. Voor mijn gevoel zijn deze orkesten onmisbaar voor de jeugd. Het is zo moeilijk jongeren aan het spelen te houden, en om dan dé leerschool en springplank binnen de orkestwereld weg te nemen betekent naar mijn mening een enorme terugslag in talentontwikkeling.',
+    name: 'Nicolien Verburg',
+    occupation: 'Student geneeskunde en amateur celliste',
+    age: '27',
+  },
+  {
+    text:
+      'Het deelnemen aan tot nu toe nog maar één concertreeks heeft mij nu al veel meer geleerd over samenspel en het bespelen van mijn instrument dan welke eerdere ervaring dan ook. Het niveau en enthousiasme bij alle leden van het JON is ongeëvenaard, waardoor je alles uit jezelf wilt halen en enorm snel groeit. Bezuinigen op de jeugd ontwortelt de Nederlandse klassieke muziekindustrie van morgen.',
+    name: 'Wiek van Venetië',
+    occupation: 'Contrabassist in het JON',
+    age: '18',
+  },
+  {
+    text:
+      'Het begin van mijn prachtige carriere. Alle contacten die ik nu heb kan ik herleiden naar mijn periode mijn het NJO van 2001-2005. Een geweldige tijd waar ik met veel plezier vaak aan terugdenk. De geweldige ervaringen op en naast het podium doe ik daar heb mogen opdoen hebben mij gebracht waar ik nu ben.  Zonder het NJO had ik dit letterlijk niet gered! De jeugdorkesten in Nederland zijn DE bakermat van de musici en de orkesten in NL. Schaf je dit af, raak je de muziekwereld van de toekomst in haar Ziel!!',
+    name: 'Jeroen Schippers',
+    occupation: 'Solo-trompettist Marinierskapel',
+    age: '37',
+  },
+  {
+    text:
+      'Als oud lid van het NJO heb ik vele projecten in binnen- en buitenland mogen doen. De gehele basis van het spelen in een orkest heb ik te danken aan het NJO. In het NJO heb ik zo veel ontzettend geleerd, mede door de fantastische musici en de geweldige coaches. Vanuit het NJO heb ik meerdere malen als uitwisselingsstudent mogen deelnemen aan projecten van de andere Nationale Jeugdorkesten van Europa. Ook tijdens deze projecten heb ik zo veel geleerd en zonder deze ervaringen zou ik niet de violist zijn die ik vandaag ben. Ik denk nog vaak met enorm veel enthousiasme terug aan mijn geweldige tijd met NJO. Ik dank het NJO hiervoor! Ik wens deze ervaringen ook aan de studenten van nu toe en ik zou het eeuwig zonde vinden voor de Nederlandse cultuur als het NJON zou ophouden met bestaan.',
+    name: 'Jouko Kuijk',
+    occupation: 'Freelance violist',
+    age: '31',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (

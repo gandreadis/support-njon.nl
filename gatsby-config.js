@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Support NJON`,
-    description: `Campagne voor de NJON naar aanleiding van negatief fonds-advies`,
+    description: `Campagne voor de NJON naar aanleiding van negatief BIS-advies`,
     author: `@geoandreadis`,
     siteUrl: `https://support-njon.nl`,
   },

@@ -76,6 +76,15 @@ const Index = ({ intl }) => (
               {intl.formatMessage({ id: 'index.media.trouw' })}
             </a>
           </p>
+          <p>
+            <a
+              href="https://m.facebook.com/story.php?story_fbid=141210350892339&id=100050101248128"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {intl.formatMessage({ id: 'index.media.robvanderlaar' })}
+            </a>
+          </p>
           <img
             src="/bis-advice.png"
             alt="BIS-advies"
