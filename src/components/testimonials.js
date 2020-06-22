@@ -107,6 +107,27 @@ const ITEMS = [
     occupation: 'Moeder van Marit, altviolist in het JON vanaf 2016',
     age: '60',
   },
+  {
+    text:
+      "Ik heb zelf tweemaal meegedaan in het Jong Metropole en deze ervaring heeft ervoor gezorgd dat ik zoveel meer kon leren, dan waar dan ook. De orkesten van NJON zijn educatief en geven je de ruimte je snel te ontwikkelen in een zeer korte tijd. Ook kun je snel bouwen aan een netwerk van collega's en professionals met wie je werkt.",
+    name: 'Damyan Vermaas',
+    occupation: 'Student Bastrombone aan Codarts',
+    age: '20',
+  },
+  {
+    text:
+      'Zonder orkesten als het JON en het NJO mist Nederland een van de belangrijkste schakels richting het professionele muziekleven. NJON is onmisbaar voor de ervaring van jonge muzikanten!',
+    name: 'Vincent Verhage',
+    occupation: 'Dirigent HaFaBra, professioneel tubaist',
+    age: '32',
+  },
+  {
+    text:
+      'Mijn eerste orkest ervaring heb ik opgedaan bij het NJO. Tot op de dag van vandaag herinner ik me de inspirerende repetities en concerten van elk project dat ik er gespeeld heb. Achteraf blijkt die periode de basis geweest waarvan ik mijn hele muzikale carrière geprofiteerd heb en dat overigens nog steeds doe. Het niveau van de orkestmusici, de dirigenten, de concertzalen, de programma’s, de sociale omgang etc etc hebben een ontzettend grote bijdrage geleverd aan mijn muzikale vorming als trompettist en later als dirigent. Het advies van de Raad van Cultuur (???) is dan ook totaal onbegrijpelijk en slaat de plank volledig mis. Hopelijk zal de beslissing met gezond verstand heroverwogen worden. We zijn toch geen cultuurbarbaren aan het worden in het zo cultuur rijke Nederland? Alle succes voor de toekomst NJON!',
+    name: 'Bram Sniekers',
+    occupation: 'Voormalig solo trompettist KMK, dirigent',
+    age: '47',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
