@@ -100,6 +100,13 @@ const ITEMS = [
     occupation: 'Ex-JON’er, Member NJO, Student Klassiek Slagwerk CvA',
     age: '21',
   },
+  {
+    text:
+      'Als ouder van een JON-ner zie ik hoe mijn kind is gegroeid. Als 14-jarige kwam ze in het orkest, vlak voor de zomertournee. Ze kwam als 15-jarige terug. Letterlijk omdat ze jarig was tijdens de tournee, maar ook figuurlijk: wat had ze veel geleerd!! Sociaal, want ga er maar aan staan met > 80 deelnemers die je nog niet kent, maar ook muzikaal.  Die groei zet zich voort nu ze zo’n beetje aan het eind van haar JON-carrière deel uitmaakt van het jongerenbestuur, een hechte groep vrienden heeft gemaakt die ook samen in wisselende samenstelling met elkaar muziek maakt. Deze ervaringen hebben haar mede gevormd tot wie ze nu is.',
+    name: 'Gini Westera',
+    occupation: 'Moeder van Marit, altviolist in het JON vanaf 2016',
+    age: '60',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
