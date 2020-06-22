@@ -150,6 +150,20 @@ const ITEMS = [
     occupation: 'Liefhebber van goeie muziek!',
     age: '31',
   },
+  {
+    text:
+      'Deze jeugdorkesten zorgen ervoor dat de gedreven jeugd die daarin spelen zijn/haar talenten nog meer ontwikkelen. Een kans die niet altijd binnen elk orkest gerealiseerd kunnen worden, omdat daar al spelers zitten die een traject/opleiding hebben gehad. Via deze jeugdorkesten wordt ook de binding en het plezier in spelen vergroot. Er ontstaan mogelijkheden tot kansen die anders alleen blijven voor de mensen die deze connecties al hebben. Cultuur is belangrijk en heeft een zeer goed effect op de ontwikkeling van deze jonge mensen.  Ik had gewild dat ik in mijn jongere jaren had geweten over deze orkesten! Dan had ik er zeker bij willen zitten!',
+    name: 'Martine',
+    occupation: 'Leerkracht',
+    age: '32',
+  },
+  {
+    text:
+      'Ik heb nog niet eens meegespeeld met het orkest, maar heb wel de afgelopen twee jaar auditie gedaan. Voor alle conservatoriumstudenten zal er in hun toekomst wel ergens een auditie gedaan moeten worden. Dat er in Nederland en België een instituut is dat de studenten een auditie laat voorbereiden is geweldig. Ik ervaarde de spanning die bij een auditie komt kijken. Na de auditie krijg je videomateriaal van je eigen auditie met feedback op de auditie van de jury, mensen die jou niet kennen (i.t.t. je docent). Dit is allemaal zeer leerzaam voor mij geweest. De eerste keer werd ik niet aangenomen, heb hiervan geleerd en hard gewerkt om de tweede keer wel aangenomen te worden. Ik keek ernaar uit mee te spelen deze lente of zomer, maar dat kan helaas niet (jammer maar pindakaas). Ik keek ernaar uit mensen te leren kennen van ándere Conservatoria en kennis en muziek en plezier uit te wisselen.',
+    name: 'Rodo Nijhoff',
+    occupation: 'Student Altviool HKU (2e jaar)',
+    age: '25',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
