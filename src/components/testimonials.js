@@ -57,6 +57,14 @@ const ITEMS = [
     occupation: 'Muziekwetenschapper',
     age: '27',
   },
+  {
+    text:
+      'Tijdens mijn conservatorium opleiding was het een geweldige ervaring om met de top van de Nederlandse en internationale conservatoria samen te spelen. Een onmisbare stap die ik nodig had om later te kunnen spelen bij de beroepsorkesten. Tot op de dag van vandaag heb ik veel profijt van deze ervaringen bij het beoefenen van mijn baan in een defensieorkest. Musici van de toekomst hebben deze orkesten nodig om een brug te bouwen van student naar professional! Ongelooflijk dat de RvC zo onkundig is dat ze dit niet inziet. Het lijkt me verstandig dat ze het advies gaan herzien!',
+    name: 'Kenneth Zandbergen',
+    occupation:
+      'Bastrombonist Regimentsfanfare ‘garde grenadiers en jagers‘ / docent scholen in de kunst Amersfoort',
+    age: '36',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
