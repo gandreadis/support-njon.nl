@@ -43,6 +43,13 @@ const ITEMS = [
       'Professioneel musicus / Contrabassist in Phion, orkest van Gelderland en Overijssel',
     age: '27',
   },
+  {
+    text:
+      'Van mijn 13e tot mijn 20e speelde ik in het JON. Ik heb daar een enorme persoonlijke en muzikale ontwikkeling kunnen meemaken. Ben gegroeid van tutti speler naar aanvoerder en concertmeester. Een enorme educatieve ontwikkeling, mag je dat toch wel noemen. Daarna heb ik ook nog jaren in het NJO gespeeld.  Altijd onder leiding van de meest inspirerende dirigenten muziek maken op zeer hoog niveau. Met vrienden. Gelijkgestemden. Die elkaar bij de orkesten vinden in plaats van het buitenbeentje te zijn op school.  Alle kansen die de jeugdorkesten aan jonge musici bieden. De tournees, de concerten. Onvergetelijke herinneringen.  Er is de tijd om het repertoire echt te leren kennen. En veel repertoire kennis op te doen. In de professionele orkesten teer je nog op die kennis!  NJON is een enorme kweekvijver voor de professionele wereld!  Zonder die orkesten zou ik nooit zijn wat ik nu ben! Een echte orkest musicus! Die muziek en die manier van spelen zit in mijn DNA. Dankzij NJON!',
+    name: 'Hester van der Vlugt',
+    occupation: '1e violiste bij het Nederlands Philharmonisch Orkest',
+    age: '38',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
