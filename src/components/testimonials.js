@@ -50,6 +50,13 @@ const ITEMS = [
     occupation: '1e violiste bij het Nederlands Philharmonisch Orkest',
     age: '38',
   },
+  {
+    text:
+      'Bij het NJON worden nieuwe generaties musici gecreëerd. De enorm inspirerende omgeving en de unieke ervaringen die het NJON biedt aan jonge, talentvolle musici, maken dat de orkesten van Nederland steeds weer aangevuld kunnen worden met talenten die zich dankzij organisaties als NJON hebben kunnen ontwikkelen. NJON draagt zo onmisbaar bij aan de toekomst van het Nederlandse muziekleven. Het niet willen subsidiëren van zo’n ongelooflijk belangrijke zaak is een grove fout en getuigt van een gebrek aan lange termijn visie op de Nederlandse muziekwereld.',
+    name: 'Rogier van Gulick',
+    occupation: 'Muziekwetenschapper',
+    age: '27',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
