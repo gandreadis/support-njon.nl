@@ -79,6 +79,27 @@ const ITEMS = [
     occupation: 'Violiste/Componiste/Viooldocent',
     age: '30',
   },
+  {
+    text:
+      'Elke zomer in mijn studententijd was het  vaste prik, het NJO. Wat vond ik het heerlijk, de hele zomer muziek maken met medestudenten. Uitdagende stukken, beroemde dirigenten, het was elke keer een uitdaging en een belangrijke leerschool. Het is een veilige plek om ervaring op te doen, die essentieel is om na je studie door te stromen naar de professionele orkesten.  Zonder het NJO acht ik de kans erg klein dat ik nu een vaste baan zou hebben bij een professioneel orkest. Dus voor het professionele orkestleven is het noodzakelijk dat de Nederlandse jeugdorkesten blijven bestaan en gesubsidieerd worden.',
+    name: 'Marijke Zijlstra',
+    occupation: 'Fagottist bij het Noord Nederlands Orkest',
+    age: '',
+  },
+  {
+    text:
+      'Het NJON is een onmisbare kweekvijver voor jong talent, ik heb het destijds ook nodig gehad voor mijn ontwikkeling.  Verbijsterend dit advies, denk na en zie af van dit plan....',
+    name: 'Bart van Grinsven',
+    occupation: 'Musicus',
+    age: '34',
+  },
+  {
+    text:
+      'De NJON hebben voor mij veel betekend. Als jochie van 15 kwam ik bij het JON en heb ik geleerd samen te spelen in een groot orkest, maar ook hoe je op sociaal gebied moet functioneren in een grote groep. Daarna ben ik doorgestroomd naar het NJO waar je op een professionele manier leert werken met gelijkgestemde conservatorium studenten. Beide deze orkest zijn onmisbaar voor de ontwikkeling van jonge musici!',
+    name: 'Kobus Prins',
+    occupation: 'Ex-JON’er, Member NJO, Student Klassiek Slagwerk CvA',
+    age: '21',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
