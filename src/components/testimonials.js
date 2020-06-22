@@ -174,15 +174,22 @@ const ITEMS = [
     text:
       'It makes you develop as a musician and it prepares you at a professional level which you will be confronting afterwards. Meeting people and friends and being able to play together makes it even more motivating!',
     name: 'Clara Garcia',
-    occupation: 'Viola student in Royal Conservatoire in Den Haag',
+    occupation: 'Viola student at the Royal Conservatory in The Hague',
     age: '23',
   },
   {
     text:
       'The experiences of NJO are some of the best memories I have of my life! Always playing with the great players, that later became friends and with professional teachers and conductors helping us to become better musicians and persons! This initiatives give as experience for our professional life preparing us for the future.',
     name: 'Marta Vilaça',
-    occupation: 'Bachelor Student of Conservatorium Van Amsterdam',
+    occupation: 'Bachelor student at Conservatorium van Amsterdam',
     age: '20',
+  },
+  {
+    text:
+      'Het NJO is door het hoge en professionele niveau een van de allerbelangrijkste omgevingen om je als muzikant in Nederland te kunnen ontwikkelen!',
+    name: 'Wilma de Bruijn',
+    occupation: 'Student cello aan het Koninklijk Conservatorium, Den haag',
+    age: '22',
   },
 ]
 
