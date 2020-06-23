@@ -558,6 +558,20 @@ const ITEMS = [
     occupation: 'Apotheker',
     age: '54',
   },
+  {
+    text:
+      'Ik heb er zelf een aantal keer meegespeeld en je leert hier zoveel en leert zoveel nieuwe mensen kennen. Onmisbaar orkest voor de jeugd die orkest en ensemble ervaring op wil doen!!',
+    name: 'Hanna Koens',
+    occupation: 'Violiste',
+    age: '42',
+  },
+  {
+    text:
+      "As a former member of NJO I can't stress enough the quality and excellence of their orchestra and ensemble programs. They are such a valuable institution for young musicians in the Netherlands and give us remarkable assets for our future career. This institution is essential for music education and aspiring young musicians, providing us top scene conductors, a very professional staff team, on-field orchestra experience and colleagues and friends which go beyond NJO tours and programs. Personally, NJO was very influential during my academic education and my membership still plays a very important role on my Curriculum. Please allow them to keep contributing for so many young musicians lives!",
+    name: 'Rita Mendes',
+    occupation: 'Clarinet Player, Professional',
+    age: '25',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
