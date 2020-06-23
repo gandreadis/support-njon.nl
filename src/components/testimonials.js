@@ -551,6 +551,13 @@ const ITEMS = [
     occupation: 'Student trombone aan het CvA, beroepsmusicus',
     age: '21',
   },
+  {
+    text:
+      'Lees het stuk in de Groene Amsterdammer, vrijdag 4 juli 2008. Luister naar Radio Doc, NPO Radio 1, zondag 21 juni 2020, 21.00 uur. Waarom is Maxima een voorstander van muziek in de klas? Muziek is het zout in de pap! Muziek is zoveel meer dan een aardighied. Je kunt er niet alleen van genieten, maar het beoefenen ervan is een uitdaging en leuk! Blij was ik, toen mijn zoon koos voor muziek als eindexamenvak. Het is een expressiemiddel. Het is zo belangrijk jonge mensen kennis te laten maken met de mogelijkheden van muziek. En dat geldt voor het hele spectrum, waar ook klassieke muziek toe behoort. Joe Jackson is niet voor niets geïnspireerd geweest door Beethoven en Grieg. Laat jonge mensen struinen en ontdekken, dan vinden ze vanzelf wat bij hen past. Laat dat niet over aan beleidsmakers. Laten die een samenleving met ontwikkelde mensen voorstaan, waar niet alleen de in geld uit te drukken waarden wegen. Alles van waarde is weerloos, was het niet zo?',
+    name: 'Mirjam Goddijn',
+    occupation: 'Apotheker',
+    age: '54',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
