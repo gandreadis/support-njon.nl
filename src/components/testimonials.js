@@ -487,6 +487,63 @@ const ITEMS = [
     occupation: 'Student altviool Koninklijk Conservatorium Den Haag',
     age: '22',
   },
+  {
+    text:
+      'Het NJO is onmisbaar voor muzikanten in wording. Het geeft hen de kans om ervaring op te doen en te groeien.',
+    name: '',
+    occupation: 'Student hobo aan het conservatorium van Brussel',
+    age: '',
+  },
+  {
+    text:
+      "Ikzelf ben op 6-jarige leeftijd begonnen met piano, 9 was ik op de blokfluit, 12 op de hoorn en 18 op de bariton-tuba. Die kans krijg je alleen in een kweekvijver. NJON is zo'n broodnodige kweekvijver. Zonder de jeugd stopt uiteindelijk de muziek. Don't stop the music! Ik ben zelf al ruim 40 jaar actief in Zaate Hermenie De Batjakkers, 9 jaar in Joekshermenie Limburg Orange en 6 jaar in dans/swing/etcetera-orkest Mixed Harmony Maastricht en al ruim 46 jaar actief musicerend.",
+    name: 'Guido Herben',
+    occupation: '(Documentair) Informatiekundige werkzaam als lab-ICTer',
+    age: '52',
+  },
+  {
+    text:
+      'One of the finest programs of its kind in the world. An invaluable asset to the world of classical music for professionals and appreciators alike.',
+    name: '',
+    occupation: 'BM String Performance Student',
+    age: '20',
+  },
+  {
+    text:
+      'NJO was a fantastic experience I had the opportunity to be apart of many times! More youth orchestras need to exist! We should not tear down the ones that already function and give tremendous opportunities to students from all types of nationalities and backgrounds.',
+    name: 'Rita Proença',
+    occupation: 'Student Viola CvA',
+    age: '',
+  },
+  {
+    text:
+      'Mijn dochter heeft zeer veel geleerd in jeugdorkest en is ook opengebloeid in deze jaren!',
+    name: 'Michele Quagliara',
+    occupation: '',
+    age: '52',
+  },
+  {
+    text:
+      'Het NJON is onmisbaar voor het ontplooien van toekomstige topmusici.',
+    name: 'Jacob Hiemstra',
+    occupation: 'Bas-tubaïst',
+    age: '36',
+  },
+  {
+    text:
+      'Mijn tijd bij het JON is voor mij zeer waardevol geweest en in die lijn is het NJO nu ook erg belangrijk voor mij, voor mijn ontwikkeling als orkestmusicus maar ook voor het maken van vriendschappen en het leggen van contacten in de muziekwereld. Ik koester waardevolle herinneringen aan alle projecten bij het NJON en kijk reikhalzend uit naar de dag waarop we weer samen kunnen leren en musiceren. Dat de toekomst van het NJON misschien wel onzeker is, is onbegrijpelijk: deze leerschool voor orkestspel specifiek en klassiek musicus zijn in het algemeen is fundamenteel voor de Nederlandse muziek- en orkestcultuur. Daarom steun ik van harte dit initiatief en hoop ik dat velen met mij staan.',
+    name: 'Ester Potjes',
+    occupation:
+      'Student altviool aan HKU Utrechts Conservatorium, voormalig JONer en huidig NJO-lid',
+    age: '22',
+  },
+  {
+    text:
+      'Bij het NJO heb ik, naast levenslange vriendschappen, onmisbare ervaring in het orkestspel opgedaan, waardoor ik beter wist wat ik wou en groeide in het vioolspelen. Het NJO is een essentiële kweekvijver in de overgang van student naar professionele musicus. Laat het NJO doen waar het goed in is!',
+    name: 'Coraline Groen',
+    occupation: 'Violist in het Concertgebouworkest',
+    age: '24',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
