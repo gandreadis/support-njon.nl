@@ -544,6 +544,13 @@ const ITEMS = [
     occupation: 'Violist in het Concertgebouworkest',
     age: '24',
   },
+  {
+    text:
+      'Als er een moment in mijn leven is, dat ik zou kunnen zien als een heus keerpunt, is het wel het moment dat ik werd aangenomen bij het JON. Geen andere instantie heeft mij zo veel geleerd, en zo veel voor mij mogelijk gemaakt. Zonder dit prachtige jeugdorkest zou ik nooit zo ver zijn gekomen in de professionele muziekwereld als ik nu ben. Het heeft een grote liefde voor klassieke muziek op laten waaien, waar ik de rest van mijn leven van kan genieten. De NJON hebben recht op de BIS, zodat ze meer jonge talenten verder kunnen helpen, en kunnen onderwijzen op het gebied van klassieke muziek.',
+    name: 'Niels Jacobs',
+    occupation: 'Student trombone aan het CvA, beroepsmusicus',
+    age: '21',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
