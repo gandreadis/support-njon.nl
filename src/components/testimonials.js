@@ -572,6 +572,13 @@ const ITEMS = [
     occupation: 'Clarinet Player, Professional',
     age: '25',
   },
+  {
+    text:
+      "Het is onvoorstelbaar dat in ons land een nationaal jeugdorkest, dat een voorname rol speelt bij de vorming van toekomstige musici, het stimuleren van hun muzikale talent, en het bieden van een podium aan deze jonge jeugdmusici, de das omgedaan wordt. Topmusici zijn het, die er spelen, die keer op keer topprestaties neerzetten. Het belang van NJON voor de gehele Nederlandse cultuursector, maar ook de gehele Nederlandse samenleving is van onschatbare waarde en wordt ernstig onderschat. Deze jonge mensen zijn de toekomstige spelers in onze nationale orkesten, en verdienen het om zich te kunnen ontplooien in de bloei van hun leven, om later, het Nederlandse publiek te kunnen voorzien van de mooiste klanken, gecomponeerd door 's werelds grootste meesters. Dit besluit zal uiteindelijk bijdragen aan een verdere verschraling, versimplificering en verval van het Nederlandse cultuurlandschap. Dit kunnen en mogen we niet op ons geweten hebben. Daarom svp dit besluit herzien!",
+    name: 'ir. L. Niemel',
+    occupation: 'Ouder jeugdspeler JON',
+    age: '53',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
