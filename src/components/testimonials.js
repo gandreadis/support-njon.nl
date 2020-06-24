@@ -594,6 +594,13 @@ const ITEMS = [
     occupation: 'Freelance violiste',
     age: '27',
   },
+  {
+    text:
+      'My participation with Nationaal Jeugd Orkest in 2016 and 2017, is still to this day huge highlights of my pre professional career. As a professional flute player now based in Sydney the musical experiences, friendships, and knowledge of orchestral playing I learned during these tours is invaluable and are memories I will cherish for the rest of my life!',
+    name: 'Emilia Antcliff',
+    occupation: 'Professional flutist',
+    age: '25',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
