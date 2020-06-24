@@ -579,6 +579,21 @@ const ITEMS = [
     occupation: 'Ouder jeugdspeler JON',
     age: '53',
   },
+  {
+    text:
+      'Ik ben twee jaar lid geweest van het Nationaal Jeugdorkest. Ik heb er ontzettend veel geleerd over samenspel op allerlei manieren*, en natuurlijk ook vriendschappen gesloten en repertoire van de bovenste plank gespeeld. Het NJO is van onschatbare waarde geweest voor mijn ontwikkeling als altviolist. Daarnaast heb ik zelf kunnen zien hoe de muziek van het NJO voor zoveel genietende gezichten kan zorgen - zowel in het skatepark als het Concertgebouw.',
+    name: 'Ursula Skaug',
+    occupation:
+      'Student Altviool aan het Koninklijk Conservatorium Den Haag, beroepsmusicus',
+    age: '23',
+  },
+  {
+    text:
+      'Er zijn maar weinig plekken waar ik zoveel heb geleerd als bij het Nationaal Jeugdorkest (NJO). Ik heb er jarenlang met enorm veel plezier gespeeld en een grote variëteit aan muziek mogen uitvoeren, van oude muziek tot jazz en pop. Het NJO heeft mij mede gevormd tot wie ik ben als mens en musicus: veelzijdig, breed georiënteerd, zelfverzekerd en een echte teamspeler.  Dat de NJON volgend de Raad voor Cultuur "te weinig doen aan educatie" vind ik dan ook verbazingwekkend en lijkt op niets te zijn gebaseerd. De NJON vormen een onmisbaar onderdeel van de (klassieke) muziekopleiding in Nederland, en dragen daarmee bij aan het fundament van de Nederlandse muziekcultuur.',
+    name: 'Saskia Frijns',
+    occupation: 'Freelance violiste',
+    age: '27',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
