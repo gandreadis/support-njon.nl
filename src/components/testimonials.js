@@ -601,6 +601,21 @@ const ITEMS = [
     occupation: 'Professional flutist',
     age: '25',
   },
+  {
+    text:
+      'Orkesten zijn van onschatbare waarde om muzikale kwaliteiten te ontwikkelen. NJON is een fantastische plek die persoonlijke ontwikkeling mogelijk maakt voor talentvolle jonge musici in dit land. Niet alleen leer je daar samen spelen en de kunsten van het orkestspel, het auditieproces op zich is al enorm belangrijk in de ontwikkeling van talenten. Bovendien moet niet onderschat worden wat voor motiverende rol NJON speelt voor haar deelnemers. De lat wordt hoog gelegd bij deze orkesten - wat persoonlijke ontwikkeling stimuleert - en het ontmoeten van leeftijdsgenoten met dezelfde passie zorgt ook voor een enorme drive voor zelfontwikkeling. Als NJON ten onder gaat, valt er een fantastische voedingsbodem weg voor de musici van de toekomst. Dat zal op lange termijn ongekende schade opleveren aan de culturele sector in Nederland.',
+    name: 'Evert-Jan Hekkelman',
+    occupation: 'Student wiskunde',
+    age: '21',
+  },
+  {
+    text:
+      'Een heel groot aantal van de huidige beroepsmusici in Nederland is groot geworden in het JON en NJO. Ga maar eens turven op de podia van de Nederlandse orkesten. Toeval? Uiteraard niet.  Ik heb van zeer dichtbij kunnen zien welke impact het functioneren op dit hoge niveau heeft op de beroepsmusici van morgen. De orkesten van NJON voorzien in de onontbeerlijke, juiste artistieke omgeving. Een prettige bijkomstigheid is dat sociale vaardigheden als samenwerking, vriendschappen sluiten voor het leven en verantwoordelijkheidsgevoel sterk gevormd worden.',
+    name: 'Kees ‘Sven’ Kramer',
+    occupation:
+      'Manager artistieke zaken en programmering a.i. bij Phion (werkte eerder bij de radio-orkesten in Hilversum, het Rotterdams Philharmonisch Orkest, het Concertgebouworkest en het Nederlands Philharmonisch Orkest|Nederlands Kamerorkest en NJON)',
+    age: '',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
