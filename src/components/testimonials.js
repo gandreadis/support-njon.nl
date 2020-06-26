@@ -616,6 +616,21 @@ const ITEMS = [
       'Manager artistieke zaken en programmering a.i. bij Phion (werkte eerder bij de radio-orkesten in Hilversum, het Rotterdams Philharmonisch Orkest, het Concertgebouworkest en het Nederlands Philharmonisch Orkest|Nederlands Kamerorkest en NJON)',
     age: '',
   },
+  {
+    text:
+      'I have played with many youth orchestras, but the NJO will always have a special place in my heart. It was as challenging to get there as it was worth it to stay for a couple projects, I met some wonderful people, played at the most amazing halls and learned from the most amazing professionals. The NJO provided a space for everyone to grow up musically, personally and to work harder than even some professional orchestras at times.  An intense, yet beautiful experience for young musicians. Very essential in the formation of future professionals of high quality.',
+    name: 'Andoni Monux',
+    occupation:
+      'Master Student at the Zürich Univeristy of Arts / Former Student CvA',
+    age: '22',
+  },
+  {
+    text:
+      'Het heeft veel betekend in de muzikale ontwikkeling van mijn dochter en vele jonge mensen die het JON en NJO nodig hebben om onontbeerlijke ervaringen op te doen.',
+    name: '',
+    occupation: 'Verpleegkundige',
+    age: '61',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
