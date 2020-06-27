@@ -631,6 +631,13 @@ const ITEMS = [
     occupation: 'Verpleegkundige',
     age: '61',
   },
+  {
+    text:
+      'De NJON zijn een onmisbare schakel in het Nederlandse muziekleven, van klassiek tot jazz, pop etc. Dat zie ik wel als Culturele Basis Infrastructuur!',
+    name: 'Jan Geert Vierkant',
+    occupation: 'Directeur van samenwerkingspartner Metropole Orkest (en oud-lid van het NJO)',
+    age: '55',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
