@@ -635,8 +635,16 @@ const ITEMS = [
     text:
       'De NJON zijn een onmisbare schakel in het Nederlandse muziekleven, van klassiek tot jazz, pop etc. Dat zie ik wel als Culturele Basis Infrastructuur!',
     name: 'Jan Geert Vierkant',
-    occupation: 'Directeur van samenwerkingspartner Metropole Orkest (en oud-lid van het NJO)',
+    occupation:
+      'Directeur van samenwerkingspartner Metropole Orkest (en oud-lid van het NJO)',
     age: '55',
+  },
+  {
+    text:
+      'De ervaring met het NJO (in het orkest en ook tijdens speciale muziekzomer projecten) was voor mij enorm behulpzaam als voorbereiding op het beroepsleven',
+    name: 'Joe Betts',
+    occupation: 'Hoornist bij het Nationaltheater Mannheim',
+    age: '26',
   },
 ]
 
