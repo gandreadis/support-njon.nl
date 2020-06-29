@@ -646,6 +646,20 @@ const ITEMS = [
     occupation: 'Hoornist bij het Nationaltheater Mannheim',
     age: '26',
   },
+  {
+    text:
+      'Het is de bakermat voor jonge musici en van essentieel belang. Studenten worden hier klaargestoomd voor de professionele muziekwereld. Ze doen auditie ervaring op, ze doen orkest ervaring en ook op sociale aspecten onmisbaar voor de totale ontwikkeling van de muzikant. Het is voor mij van onschatbare waarde geweest om jaren deel nemen. Geef onze muzikale beloftes wat ze nodig hebben.',
+    name: 'Rommert Groenhof',
+    occupation: 'Bastrombonist Radio Filharmonisch Orkest',
+    age: '28',
+  },
+  {
+    text:
+      "Wat een waanzinnige ervaring om als tiener met de meest geweldige dirigenten, componisten en solisten te werken en vervolgens op prachtige podia in Europa te staan, en dat allemaal met getalenteerde leeftijdsgenoten. Echt een tijd om nóóit te vergeten!!! Ik ben echt zo trots als ik een oud-JON'er zie knallen in een beroepsorkest...! Later heb ik als tourmanager gewerkt bij het NJO en ook van dichtbij gezien hoe waardevol deze leerschool is voor jonge musici. Onmisbaar. Mijn mooiste muzikale herinneringen, zijn herinneringen aan momenten bij het NJON <3",
+    name: 'Aniek de Jong',
+    occupation: "Amateur celliste (oud-JON'er, oud-tourmanager NJO)",
+    age: '30',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
