@@ -660,6 +660,13 @@ const ITEMS = [
     occupation: "Amateur celliste (oud-JON'er, oud-tourmanager NJO)",
     age: '30',
   },
+  {
+    text:
+      'Elk jaar kijk ik uit naar de Muziekzomer. Naar al die verrassende muziek van componisten buiten de mainstream, uitgevoerd door geweldige jonge musici, vaak op bijzondere plekken, die ook veel toevoegen aan de beleving als luisteraar, naar de anders dan anders programma’s, zeker ook die van de artist in residence, (wat een prachtige leerervaring), naar de toelichting door de dirigenten, die je meenemen in de muziek die zij op de lessenaar hebben staan, naar de openbare repetities. Ook weken waarin we genieten van de verhalen van de musici die mijn maatje en ik te gast hebben, over de muziek die ze uitvoeren, over hoeveel ze leren van de inspirerende dirigenten die jaarlijks aan de Muziekzomer meewerken, en van componisten die zelf aanwezig zijn bij de repetities van hun eigen compositie, over de nieuwe contacten die ze kunnen leggen met collega-musici.  Ik denk dus: hoe bestaat het! Als er één organisatie subsidie moet krijgen op grond van ‘vernieuwing’ en ‘educatie’, is dat het NJON.',
+    name: 'Anja Cohen',
+    occupation: 'beeldend kunstenaar',
+    age: '',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
