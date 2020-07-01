@@ -12,6 +12,9 @@ const Videos = () => (
         <Carousel.Item className="text-center">
           <Video id="Xg_Xkh39qPQ" />
         </Carousel.Item>
+        <Carousel.Item className="text-center">
+          <Video id="9li3kxCPFbo" />
+        </Carousel.Item>
       </Carousel>
     </Container>
   </div>
