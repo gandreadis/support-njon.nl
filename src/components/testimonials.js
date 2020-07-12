@@ -667,6 +667,27 @@ const ITEMS = [
     occupation: 'beeldend kunstenaar',
     age: '',
   },
+  {
+    text:
+      'Elk jaar genieten we weer van het veelzijdige NJON-aanbod in de Muziekzomer. Geweldig dat jonge musici uit binnen- en buitenland deze kans krijgen.',
+    name: 'Hans Slavenburg',
+    occupation: '',
+    age: '79',
+  },
+  {
+    text:
+      'Ik heb een lange tijd voor het NJO mogen werken en ervaren hoe belangrijk het NJO is in de ontwikkeling van jonge musici. Het niveau van de projecten, deelnemende musici en coachende profs is ongekend hoog en nodig om musici op een moeilijke beroepspraktijk voor te bereiden. Juist de veelzijdigheid van de NJO projecten helpt jonge musici bij een optimale voorbereiding van die beroepspraktijk. Het publiek weet de concerten van het NJO in toenemende mate te vinden en te waarderen. Het NJO(N) is onmisbaar in het muziekbestel. De Raad voor Cultuur moet zich kapot schamen!!',
+    name: 'Wiebren Buma',
+    occupation: 'Directeur Cultuur Kwartier Sneek',
+    age: '47',
+  },
+  {
+    text:
+      'Het enorme enthousiasme dat van de jonge musici afspat geeft elk concert extra glans. Ieder jaar opnieuw kijk ik uit naar de muziekzomer. Wie is the artist in residence, welke bijzondere optredens zijn er en heeft de organisatie opnieuw kans gezien om unieke locaties vast te leggen.',
+    name: 'Jose Vleeming',
+    occupation: 'Tekstschrijver',
+    age: '',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
