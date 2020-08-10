@@ -688,6 +688,13 @@ const ITEMS = [
     occupation: 'Tekstschrijver',
     age: '',
   },
+  {
+    text:
+      'Als bastrombonist van voorheen Het Gelders Orkest (sinds kort Phion) hierbij ook mijn hartekreet. Ik ben een van die vele voorbeelden van de huidige professionele spelers die het vak grotendeels heeft ontdekt als lid van de voorloper van het JON, toen nog Regionaal Jeugdorkest geheten, en later van het NJO. Ik gun de huidige jonge generatie dezelfde inspiratie en topervaringen. Wil je de klassieke muziekcultuur in ons land op niveau houden dan zijn JON en NJO onmisbaar. Het was toch Raad vóór Cultuur?',
+    name: 'Dick Bolt',
+    occupation: 'Bastrombonist Phion, hoofdvakdocent ArtEZ en PCC',
+    age: '60',
+  },
 ]
 
 const Item = ({ text, name, occupation, age }) => (
